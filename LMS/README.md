@@ -1,4 +1,4 @@
-*External ISV Partners Messaging Framework*
+External ISV Partners Messaging Framework
 
 To interact with the messaging framework, which allows components to respond to the Global Location Filter on the Command Center, a component may subscribe to the Command Center standard Lightning Message Service channels:
 

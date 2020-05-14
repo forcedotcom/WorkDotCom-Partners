@@ -2,7 +2,7 @@ import { LightningElement, wire, track } from 'lwc';
 import { subscribe, MessageContext, unsubscribe, APPLICATION_SCOPE } from 'lightning/messageService';
 
 /*** Message Channel ***/
-import SF_COMMAND_CENTER_MSG_CHANNEL from '@salesforce/messageChannel/lightning__SFCommandCenterMessageChannel';
+import COMMAND_CENTER_MSG_CHANNEL from '@salesforce/messageChannel/lightning__CommandCenterMessageChannel';
 
 export default class lwc_component extends LightningElement{
     @wire(MessageContext)
@@ -22,7 +22,7 @@ export default class lwc_component extends LightningElement{
      */
     subscribeToChannel() {
         if (!this.subscription) {
-            this.subscription = subscribe(this.messageContext, SF_COMMAND_CENTER_MSG_CHANNEL, message => this.handleEvent(message), {
+            this.subscription = subscribe(this.messageContext, COMMAND_CENTER_MSG_CHANNEL, message => this.handleEvent(message), {
                 scope: APPLICATION_SCOPE
             });
         }
@@ -57,4 +57,3 @@ export default class lwc_component extends LightningElement{
         }
     }
 }
-

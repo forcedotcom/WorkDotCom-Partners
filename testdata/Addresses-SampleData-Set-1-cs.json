@@ -1,0 +1,95 @@
+{
+  "records": [
+    {
+      "Description": "Salesforce Tower",
+      "Street": "415 Mission Street, 3rd Floor",
+      "City": "San Francisco",
+      "State": "CA",
+      "PostalCode": "94105",
+      "Country": "US",
+      "ParentId": "@buildingRef00",
+      "attributes": {
+        "type": "Address",
+        "referenceId": "addressRef00"
+      }
+    },
+    {
+      "Description": "Salesforce Landmark",
+      "Street": "1 Market St #300",
+      "City": "San Francisco",
+      "State": "CA",
+      "PostalCode": "94105",
+      "Country": "US",
+      "ParentId": "@buildingRef01",
+      "attributes": {
+        "type": "Address",
+        "referenceId": "addressRef01"
+      }
+    },
+    {
+      "Description": "Salesforce Rincon",
+      "Street": "101 Spear St",
+      "City": "San Francisco",
+      "State": "CA",
+      "PostalCode": "94105",
+      "Country": "US",
+      "ParentId": "@buildingRef02",
+      "attributes": {
+        "type": "Address",
+        "referenceId": "addressRef02"
+      }
+    },
+    {
+      "Description": "Salesforce Bellevue",
+      "Street": "929 108th Ave NE, St 1800",
+      "City": "Bellevue",
+      "State": "WA",
+      "PostalCode": "98004",
+      "Country": "US",
+      "ParentId": "@buildingRef10",
+      "attributes": {
+        "type": "Address",
+        "referenceId": "addressRef10"
+      }
+    },
+    {
+      "Description": "Tableau Software",
+      "Street": "1621 N 34th St",
+      "City": "Seattle",
+      "State": "WA",
+      "PostalCode": "98103",
+      "Country": "US",
+      "ParentId": "@buildingRef11",
+      "attributes": {
+        "type": "Address",
+        "referenceId": "addressRef11"
+      }
+    },
+    {
+      "Description": "Salesforce Louisville",
+      "Street": "361 Centennial Parkway, Suite 270/280",
+      "City": "Louisville",
+      "State": "CO",
+      "PostalCode": "80027",
+      "Country": "US",
+      "ParentId": "@buildingRef20",
+      "attributes": {
+        "type": "Address",
+        "referenceId": "addressRef20"
+      }
+    },
+    {
+      "Description": "Salesforce Englewood",
+      "Street": "8310 South Valley Highway, Suite 300",
+      "City": "Englewood",
+      "State": "CO",
+      "PostalCode": "80112",
+      "Country": "US",
+      "ParentId": "@buildingRef21",
+      "attributes": {
+        "type": "Address",
+        "referenceId": "addressRef21"
+      }
+    }
+  ]
+}

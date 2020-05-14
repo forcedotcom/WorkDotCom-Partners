@@ -1,0 +1,34 @@
+[
+    {
+        "sobject": "Location",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Locations-SampleData-Set-1-cs.json"
+        ]
+    },
+    {
+        "sobject": "Address",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Addresses-SampleData-Set-1-cs.json"
+        ]
+    },
+    {
+        "sobject": "InternalOrganizationUnit",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "InternalOrganizationUnit-SampleData-Set-1-cs.json"
+        ]
+    },
+    {
+        "sobject": "Employee",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Employee-SampleData-Set-1-cs.json"
+        ]
+    }
+]

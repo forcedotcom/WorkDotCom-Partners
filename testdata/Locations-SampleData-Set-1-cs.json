@@ -1,0 +1,410 @@
+{
+  "records": [
+    {
+      "name": "Salesforce Tower",
+      "Description": "Salesforce Tower",
+      "ChildLocations": {
+        "records": [
+          {
+            "name": "Salesforce Tower-Floor 1",
+            "Description": "Salesforce Tower-Floor 1",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 37.7897854,
+            "Longitude": -122.3969196,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef001"
+            }
+          },
+          {
+            "name": "Salesforce Tower-Floor 2",
+            "Description": "Salesforce Tower-Floor 2",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 37.7897854,
+            "Longitude": -122.3969196,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef002"
+            }
+          },
+          {
+            "name": "Salesforce Tower-Floor 3",
+            "Description": "Salesforce Tower-Floor 3",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 37.7897854,
+            "Longitude": -122.3969196,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef003"
+            }
+          }
+        ]
+      },
+      "Status__c": "Hard Close",
+      "LocationType": "Site",
+      "Latitude": 37.7897854,
+      "Longitude": -122.3969196,
+      "attributes": {
+        "type": "Location",
+        "referenceId": "buildingRef00"
+      }
+    },
+    {
+      "name": "Salesforce Landmark",
+      "Description": "Salesforce Landmark",
+      "ChildLocations": {
+        "records": [
+          {
+            "name": "Salesforce Landmark-Floor 1",
+            "Description": "Salesforce Landmark-Floor 1",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 37.7939222,
+            "Longitude": -122.394815,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef011"
+            }
+          },
+          {
+            "name": "Salesforce Landmark-Floor 2",
+            "Description": "Salesforce Landmark-Floor 2",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 37.7939222,
+            "Longitude": -122.394815,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef012"
+            }
+          },
+          {
+            "name": "Salesforce Landmark-Floor 3",
+            "Description": "Salesforce Landmark-Floor 3",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 37.7939222,
+            "Longitude": -122.394815,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef013"
+            }
+          }
+        ]
+      },
+      "Status__c": "Soft Close",
+      "LocationType": "Site",
+      "Latitude": 37.7939222,
+      "Longitude": -122.394815,
+      "attributes": {
+        "type": "Location",
+        "referenceId": "buildingRef01"
+      }
+    },
+    {
+      "name": "Salesforce Rincon",
+      "Description": "Salesforce Rincon",
+      "ChildLocations": {
+        "records": [
+          {
+            "name": "Salesforce Rincon-Floor 1",
+            "Description": "Salesforce Rincon-Floor 1",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 37.7924804,
+            "Longitude": -122.3935946,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef021"
+            }
+          },
+          {
+            "name": "Salesforce Rincon-Floor 2",
+            "Description": "Salesforce Rincon-Floor 2",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 37.7924804,
+            "Longitude": -122.3935946,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef022"
+            }
+          },
+          {
+            "name": "Salesforce Rincon-Floor 3",
+            "Description": "Salesforce Rincon-Floor 3",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 37.7924804,
+            "Longitude": -122.3935946,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef023"
+            }
+          }
+        ]
+      },
+      "Status__c": "Soft Close",
+      "LocationType": "Site",
+      "Latitude": 37.7924804,
+      "Longitude": -122.3935946,
+      "attributes": {
+        "type": "Location",
+        "referenceId": "buildingRef02"
+      }
+    },
+    {
+      "name": "Salesforce Bellevue",
+      "Description": "Salesforce Bellevue",
+      "ChildLocations": {
+        "records": [
+          {
+            "name": "Salesforce Bellevue-Floor 1",
+            "Description": "Salesforce Bellevue-Floor 1",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 47.6183274,
+            "Longitude": -122.1968631,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef101"
+            }
+          },
+          {
+            "name": "Salesforce Bellevue-Floor 2",
+            "Description": "Salesforce Bellevue-Floor 2",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 47.6183274,
+            "Longitude": -122.1968631,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef102"
+            }
+          },
+          {
+            "name": "Salesforce Bellevue-Floor 3",
+            "Description": "Salesforce Bellevue-Floor 3",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 47.6183274,
+            "Longitude": -122.1968631,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef103"
+            }
+          }
+        ]
+      },
+      "Status__c": "Hard Close",
+      "LocationType": "Site",
+      "Latitude": 47.6183274,
+      "Longitude": -122.1968631,
+      "attributes": {
+        "type": "Location",
+        "referenceId": "buildingRef10"
+      }
+    },
+    {
+      "name": "Tableau Software",
+      "Description": "Tableau Software",
+      "ChildLocations": {
+        "records": [
+          {
+            "name": "Tableau Software-Floor 1",
+            "Description": "Tableau Software-Floor 1",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 47.6478045,
+            "Longitude": -122.3381113,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef111"
+            }
+          },
+          {
+            "name": "Tableau Software-Floor 2",
+            "Description": "Tableau Software-Floor 2",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 47.6478045,
+            "Longitude": -122.3381113,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef112"
+            }
+          },
+          {
+            "name": "Tableau Software-Floor 3",
+            "Description": "Tableau Software-Floor 3",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 47.6478045,
+            "Longitude": -122.3381113,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef113"
+            }
+          }
+        ]
+      },
+      "Status__c": "Hard Close",
+      "LocationType": "Site",
+      "Latitude": 47.6478045,
+      "Longitude": -122.3381113,
+      "attributes": {
+        "type": "Location",
+        "referenceId": "buildingRef11"
+      }
+    },
+    {
+      "name": "Salesforce Louisville",
+      "Description": "Salesforce Louisville",
+      "ChildLocations": {
+        "records": [
+          {
+            "name": "Salesforce Louisville-Floor 1",
+            "Description": "Salesforce Louisville-Floor 1",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 39.9632158,
+            "Longitude": -105.1712275,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef201"
+            }
+          },
+          {
+            "name": "Salesforce Louisville-Floor 2",
+            "Description": "Salesforce Louisville-Floor 2",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 39.9632158,
+            "Longitude": -105.1712275,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef202"
+            }
+          },
+          {
+            "name": "Salesforce Louisville-Floor 3",
+            "Description": "Salesforce Louisville-Floor 3",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 39.9632158,
+            "Longitude": -105.1712275,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef203"
+            }
+          }
+        ]
+      },
+      "Status__c": "Soft Close",
+      "LocationType": "Site",
+      "Latitude": 39.9632158,
+      "Longitude": -105.1712275,
+      "attributes": {
+        "type": "Location",
+        "referenceId": "buildingRef20"
+      }
+    },
+    {
+      "name": "Salesforce Englewood",
+      "Description": "Salesforce Englewood",
+      "ChildLocations": {
+        "records": [
+          {
+            "name": "Salesforce Englewood-Floor 1",
+            "Description": "Salesforce Englewood-Floor 1",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 39.5651477,
+            "Longitude": -104.869645,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef211"
+            }
+          },
+          {
+            "name": "Salesforce Englewood-Floor 2",
+            "Description": "Salesforce Englewood-Floor 2",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 39.5651477,
+            "Longitude": -104.869645,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef212"
+            }
+          },
+          {
+            "name": "Salesforce Englewood-Floor 3",
+            "Description": "Salesforce Englewood-Floor 3",
+            "ChildLocations": {
+              "records": []
+            },
+            "LocationType": "Site",
+            "Latitude": 39.5651477,
+            "Longitude": -104.869645,
+            "attributes": {
+              "type": "Location",
+              "referenceId": "floorRef213"
+            }
+          }
+        ]
+      },
+      "Status__c": "Reduced Density",
+      "LocationType": "Site",
+      "Latitude": 39.5651477,
+      "Longitude": -104.869645,
+      "attributes": {
+        "type": "Location",
+        "referenceId": "buildingRef21"
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "records": [
+    {
+      "Description": "Salesforce",
+      "OrganizationCode": "Salesforce",
+      "attributes": {
+        "type": "InternalOrganizationUnit",
+        "referenceId": "orgRef1"
+      },
+      "EmployeeOrganizationUnits": {
+        "records": [
+          {
+            "Description": "Sales",
+            "OrganizationCode": "Sales",
+            "attributes": {
+              "type": "InternalOrganizationUnit",
+              "referenceId": "orgRef2"
+            },
+            "EmployeeOrganizationUnits": {
+              "records": [
+                {
+                  "Description": "Sales - HQ",
+                  "OrganizationCode": "Sales - HQ",
+                  "attributes": {
+                    "type": "InternalOrganizationUnit",
+                    "referenceId": "orgRef4"
+                  },
+                  "EmployeeOrganizationUnits": {
+                    "records": []
+                  }
+                },
+                {
+                  "Description": "Sales - Washington",
+                  "OrganizationCode": "Sales - Washington",
+                  "attributes": {
+                    "type": "InternalOrganizationUnit",
+                    "referenceId": "orgRef5"
+                  },
+                  "EmployeeOrganizationUnits": {
+                    "records": []
+                  }
+                },
+                {
+                  "Description": "Sales - Colorado",
+                  "OrganizationCode": "Sales - Colorado",
+                  "attributes": {
+                    "type": "InternalOrganizationUnit",
+                    "referenceId": "orgRef6"
+                  },
+                  "EmployeeOrganizationUnits": {
+                    "records": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Description": "Engineering",
+            "OrganizationCode": "Engineering",
+            "attributes": {
+              "type": "InternalOrganizationUnit",
+              "referenceId": "orgRef3"
+            },
+            "EmployeeOrganizationUnits": {
+              "records": [
+                {
+                  "Description": "Engineering - HQ",
+                  "OrganizationCode": "Engineering - HQ",
+                  "attributes": {
+                    "type": "InternalOrganizationUnit",
+                    "referenceId": "orgRef7"
+                  },
+                  "EmployeeOrganizationUnits": {
+                    "records": []
+                  }
+                },
+                {
+                  "Description": "Engineering - Washington",
+                  "OrganizationCode": "Engineering - Washington",
+                  "attributes": {
+                    "type": "InternalOrganizationUnit",
+                    "referenceId": "orgRef8"
+                  },
+                  "EmployeeOrganizationUnits": {
+                    "records": []
+                  }
+                },
+                {
+                  "Description": "Engineering - Colorado",
+                  "OrganizationCode": "Engineering - Colorado",
+                  "attributes": {
+                    "type": "InternalOrganizationUnit",
+                    "referenceId": "orgRef9"
+                  },
+                  "EmployeeOrganizationUnits": {
+                    "records": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

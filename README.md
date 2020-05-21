@@ -1,4 +1,4 @@
-**Setup work.com scratch org
+# Setup work.com scratch org
 
 - Clone this project locally: git clone https://github.com/forcedotcom/WorkDotCom-Partners
 - Run orgInit.sh file: ./orgInit.sh
@@ -8,7 +8,7 @@ This should create a work.com along with test data.
 
 
 
-**Test Data Scripts
+# Test Data Scripts
 
 You can run data scripts using dx-utils/load_test_data.sh file if you don't want to create entire project.
 
@@ -20,7 +20,7 @@ sfdx force:data:tree:import -p ./testdata/InternalOrganizationUnit-Employee-Empl
 sfdx force:apex:execute -f ./dx-utils/apex-scripts/updateLocationVisitorAddressId.apex
 
 
-**Notes about Test Data
+## Notes about Test Data
 
 Test data is for following objects
 - Location (Core)

@@ -1,0 +1,14 @@
+{
+    "records": [
+        {
+            "Name": "COVID-19",
+            "Description": "COVID-19",
+            "CrisisType": "Pandemic",
+            "StartDate": "2020-01-01",
+            "attributes": {
+                "type": "Crisis",
+                "referenceId": "COVID19"
+            }
+        }
+    ]
+}

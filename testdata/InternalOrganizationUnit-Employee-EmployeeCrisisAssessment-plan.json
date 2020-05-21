@@ -20,7 +20,7 @@
     {
         "sobject": "InternalOrganizationUnit",
         "saveRefs": true,
-        "resolveRefs": true,
+        "resolveRefs": false,
         "files": ["InternalOrganizationUnit-SampleData-Set-1-cs.json"]
     },
     {
@@ -34,5 +34,17 @@
         "saveRefs": true,
         "resolveRefs": true,
         "files": ["Employee-SampleData-Set-1-cs.json"]
+    },
+    {
+        "sobject": "Crisis",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["Crisis-SampleData-Set-1-cs.json"]
+    },
+    {
+        "sobject": "EmployeeCrisisAssessment",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["EmployeeCrisisAssessment-SampleData-Set-1-cs.json"]
     }
 ]

@@ -1,0 +1,193 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Location",
+                "referenceId": "country265742670"
+            },
+            "name": "US",
+            "Description": "US",
+            "LocationType": "Site",
+            "ChildLocations": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "state1933692057"
+                        },
+                        "name": "CA",
+                        "Description": "CA",
+                        "LocationType": "Site",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "city1865366464"
+                                    },
+                                    "name": "San Francisco",
+                                    "Description": "San Francisco",
+                                    "LocationType": "Site",
+                                    "ChildLocations": {
+                                        "records": []
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "state1037202509"
+                        },
+                        "name": "WA",
+                        "Description": "WA",
+                        "LocationType": "Site",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "city608012973"
+                                    },
+                                    "name": "Seattle",
+                                    "Description": "Seattle",
+                                    "LocationType": "Site",
+                                    "ChildLocations": {
+                                        "records": []
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "state295650081"
+                        },
+                        "name": "CO",
+                        "Description": "CO",
+                        "LocationType": "Site",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "city1361234451"
+                                    },
+                                    "name": "Denver",
+                                    "Description": "Denver",
+                                    "LocationType": "Site",
+                                    "ChildLocations": {
+                                        "records": []
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Location",
+                "referenceId": "country84797743"
+            },
+            "name": "UK",
+            "Description": "UK",
+            "LocationType": "Site",
+            "ChildLocations": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "state669668571"
+                        },
+                        "name": "London",
+                        "Description": "London",
+                        "LocationType": "Site",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "city1583169659"
+                                    },
+                                    "name": "London",
+                                    "Description": "London",
+                                    "LocationType": "Site",
+                                    "ChildLocations": {
+                                        "records": []
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "state1510021100"
+                        },
+                        "name": "Middlesex",
+                        "Description": "Middlesex",
+                        "LocationType": "Site",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "city405215040"
+                                    },
+                                    "name": "Stains",
+                                    "Description": "Stains",
+                                    "LocationType": "Site",
+                                    "ChildLocations": {
+                                        "records": []
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Location",
+                "referenceId": "country1392568734"
+            },
+            "name": "Canada",
+            "Description": "Canada",
+            "LocationType": "Site",
+            "ChildLocations": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "state1989669396"
+                        },
+                        "name": "ON",
+                        "Description": "ON",
+                        "LocationType": "Site",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "city30194982"
+                                    },
+                                    "name": "Toronto",
+                                    "Description": "Toronto",
+                                    "LocationType": "Site",
+                                    "ChildLocations": {
+                                        "records": []
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

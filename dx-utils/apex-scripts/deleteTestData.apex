@@ -11,7 +11,9 @@ upsert locations;
 
 // delete all records from each object
 delete [select id from Address];
-delete [select id from EmployeeHealthAssessment__c];
-delete [select id from Employee__c];
-delete [select id from EmployeeOrganization__c];
+delete [select id from EmployeeCrisisAssessment];
+delete [select id from Employee];
+delete [select id from Crisis];
+delete [select id from Individual];
+delete [select id from InternalOrganizationUnit];
 delete [select id from Location];

@@ -1,410 +1,1497 @@
 {
-  "records": [
-    {
-      "name": "Salesforce Tower",
-      "Description": "Salesforce Tower",
-      "ChildLocations": {
-        "records": [
-          {
-            "name": "Salesforce Tower-Floor 1",
-            "Description": "Salesforce Tower-Floor 1",
+    "records": [
+        {
+            "name": "Tower",
+            "Description": "Salesforce Tower",
             "ChildLocations": {
-              "records": []
+                "records": [
+                    {
+                        "name": "Tower-FL1",
+                        "Description": "Salesforce Tower-Floor 1",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Tower-F1-S1",
+                                    "Description": "Salesforce Tower-Floor 1-suite 1",
+                                    "ChildLocations": {
+                                        "records": [
+                                            {
+                                                "name": "Tower-F1-S1-section 1",
+                                                "Description": "Salesforce Tower-Floor 1-suite 1-section 1",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef00111"
+                                                }
+                                            },
+                                            {
+                                                "name": "Tower-F1-S1-section 2",
+                                                "Description": "Salesforce Tower-Floor 1-suite 1-section 2",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef00112"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0011"
+                                    }
+                                },
+                                {
+                                    "name": "Tower-F1-S2",
+                                    "Description": "Salesforce Tower-Floor 1-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0012"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef001"
+                        }
+                    },
+                    {
+                        "name": "Tower-F2",
+                        "Description": "Salesforce Tower-Floor 2",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Tower-F2-S1",
+                                    "Description": "Salesforce Tower-Floor 2-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0021"
+                                    }
+                                },
+                                {
+                                    "name": "Tower-F2-S2",
+                                    "Description": "Salesforce Tower-Floor 2-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0022"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef002"
+                        }
+                    },
+                    {
+                        "name": "Tower-F3",
+                        "Description": "Salesforce Tower-Floor 3",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Tower-F3-S1",
+                                    "Description": "Salesforce Tower-Floor 3-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0031"
+                                    }
+                                },
+                                {
+                                    "name": "Tower-F3-S2",
+                                    "Description": "Salesforce Tower-Floor 3-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0032"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef003"
+                        }
+                    }
+                ]
             },
-            "LocationType": "Site",
-            "Latitude": 37.7897854,
-            "Longitude": -122.3969196,
+            "LocationType": "Building",
             "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef001"
+                "type": "Location",
+                "referenceId": "buildingRef00"
             }
-          },
-          {
-            "name": "Salesforce Tower-Floor 2",
-            "Description": "Salesforce Tower-Floor 2",
+        },
+        {
+            "name": "Landmark",
+            "Description": "Salesforce Landmark",
             "ChildLocations": {
-              "records": []
+                "records": [
+                    {
+                        "name": "Landmark-F1",
+                        "Description": "Salesforce Landmark-Floor 1",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Landmark-F1-S1",
+                                    "Description": "Salesforce Landmark-Floor 1-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0111"
+                                    }
+                                },
+                                {
+                                    "name": "Landmark-F1-S2",
+                                    "Description": "Salesforce Landmark-Floor 1-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0112"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef011"
+                        }
+                    },
+                    {
+                        "name": "Landmark-F2",
+                        "Description": "Salesforce Landmark-Floor 2",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Landmark-F2-S1",
+                                    "Description": "Salesforce Landmark-Floor 2-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0121"
+                                    }
+                                },
+                                {
+                                    "name": "Landmark-F2-S2",
+                                    "Description": "Salesforce Landmark-Floor 2-suite 2",
+                                    "ChildLocations": {
+                                        "records": [
+                                            {
+                                                "name": "Landmark-F2-S2-section 1",
+                                                "Description": "Salesforce Landmark-Floor 2-suite 2-section 1",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef01221"
+                                                }
+                                            },
+                                            {
+                                                "name": "Landmark-F2-S2-section 2",
+                                                "Description": "Salesforce Landmark-Floor 2-suite 2-section 2",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef01222"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0122"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef012"
+                        }
+                    },
+                    {
+                        "name": "Landmark-F3",
+                        "Description": "Salesforce Landmark-Floor 3",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Landmark-F3-S1",
+                                    "Description": "Salesforce Landmark-Floor 3-suite 1",
+                                    "ChildLocations": {
+                                        "records": [
+                                            {
+                                                "name": "Landmark-F3-S1-section 1",
+                                                "Description": "Salesforce Landmark-Floor 3-suite 1-section 1",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef01311"
+                                                }
+                                            },
+                                            {
+                                                "name": "Landmark-F3-S1-section 2",
+                                                "Description": "Salesforce Landmark-Floor 3-suite 1-section 2",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef01312"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0131"
+                                    }
+                                },
+                                {
+                                    "name": "Landmark-F3-S2",
+                                    "Description": "Salesforce Landmark-Floor 3-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0132"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef013"
+                        }
+                    }
+                ]
             },
-            "LocationType": "Site",
-            "Latitude": 37.7897854,
-            "Longitude": -122.3969196,
+            "LocationType": "Building",
             "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef002"
+                "type": "Location",
+                "referenceId": "buildingRef01"
             }
-          },
-          {
-            "name": "Salesforce Tower-Floor 3",
-            "Description": "Salesforce Tower-Floor 3",
+        },
+        {
+            "name": "Rincon",
+            "Description": "Salesforce Rincon",
             "ChildLocations": {
-              "records": []
+                "records": [
+                    {
+                        "name": "Rincon-F1",
+                        "Description": "Salesforce Rincon-Floor 1",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Rincon-F1-S1",
+                                    "Description": "Salesforce Rincon-Floor 1-suite 1",
+                                    "ChildLocations": {
+                                        "records": [
+                                            {
+                                                "name": "Rincon-F1-S1-section 1",
+                                                "Description": "Salesforce Rincon-Floor 1-suite 1-section 1",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef02111"
+                                                }
+                                            },
+                                            {
+                                                "name": "Rincon-F1-S1-section 2",
+                                                "Description": "Salesforce Rincon-Floor 1-suite 1-section 2",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef02112"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0211"
+                                    }
+                                },
+                                {
+                                    "name": "Rincon-F1-S2",
+                                    "Description": "Salesforce Rincon-Floor 1-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0212"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef021"
+                        }
+                    },
+                    {
+                        "name": "Rincon-F2",
+                        "Description": "Salesforce Rincon-Floor 2",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Rincon-F2-S1",
+                                    "Description": "Salesforce Rincon-Floor 2-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0221"
+                                    }
+                                },
+                                {
+                                    "name": "Rincon-F2-S2",
+                                    "Description": "Salesforce Rincon-Floor 2-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0222"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef022"
+                        }
+                    },
+                    {
+                        "name": "Rincon-F3",
+                        "Description": "Salesforce Rincon-Floor 3",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Rincon-F3-S1",
+                                    "Description": "Salesforce Rincon-Floor 3-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0231"
+                                    }
+                                },
+                                {
+                                    "name": "Rincon-F3-S2",
+                                    "Description": "Salesforce Rincon-Floor 3-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef0232"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef023"
+                        }
+                    }
+                ]
             },
-            "LocationType": "Site",
-            "Latitude": 37.7897854,
-            "Longitude": -122.3969196,
+            "LocationType": "Building",
             "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef003"
-            }
-          }
-        ]
-      },
-      "Status__c": "Hard Close",
-      "LocationType": "Site",
-      "Latitude": 37.7897854,
-      "Longitude": -122.3969196,
-      "attributes": {
-        "type": "Location",
-        "referenceId": "buildingRef00"
-      }
-    },
-    {
-      "name": "Salesforce Landmark",
-      "Description": "Salesforce Landmark",
-      "ChildLocations": {
-        "records": [
-          {
-            "name": "Salesforce Landmark-Floor 1",
-            "Description": "Salesforce Landmark-Floor 1",
+                "type": "Location",
+                "referenceId": "buildingRef02"
+            },
+            "ParentLocationId": "@city1865366464"
+        },
+        {
+            "name": "Bellevue",
+            "Description": "Salesforce Bellevue",
             "ChildLocations": {
-              "records": []
+                "records": [
+                    {
+                        "name": "Bellevue-F1",
+                        "Description": "Salesforce Bellevue-Floor 1",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Bellevue-F1-S1",
+                                    "Description": "Salesforce Bellevue-Floor 1-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef1011"
+                                    }
+                                },
+                                {
+                                    "name": "Bellevue-F1-S2",
+                                    "Description": "Salesforce Bellevue-Floor 1-suite 2",
+                                    "ChildLocations": {
+                                        "records": [
+                                            {
+                                                "name": "Bellevue-F1-S2-section 1",
+                                                "Description": "Salesforce Bellevue-Floor 1-suite 2-section 1",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef10121"
+                                                }
+                                            },
+                                            {
+                                                "name": "Bellevue-F1-S2-section 2",
+                                                "Description": "Salesforce Bellevue-Floor 1-suite 2-section 2",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef10122"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef1012"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef101"
+                        }
+                    },
+                    {
+                        "name": "Bellevue-F2",
+                        "Description": "Salesforce Bellevue-Floor 2",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Bellevue-F2-S1",
+                                    "Description": "Salesforce Bellevue-Floor 2-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef1021"
+                                    }
+                                },
+                                {
+                                    "name": "Bellevue-F2-S2",
+                                    "Description": "Salesforce Bellevue-Floor 2-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef1022"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef102"
+                        }
+                    },
+                    {
+                        "name": "Bellevue-F3",
+                        "Description": "Salesforce Bellevue-Floor 3",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Bellevue-F3-S1",
+                                    "Description": "Salesforce Bellevue-Floor 3-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef1031"
+                                    }
+                                },
+                                {
+                                    "name": "Bellevue-F3-S2",
+                                    "Description": "Salesforce Bellevue-Floor 3-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef1032"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef103"
+                        }
+                    }
+                ]
             },
-            "LocationType": "Site",
-            "Latitude": 37.7939222,
-            "Longitude": -122.394815,
+            "LocationType": "Building",
             "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef011"
+                "type": "Location",
+                "referenceId": "buildingRef10"
             }
-          },
-          {
-            "name": "Salesforce Landmark-Floor 2",
-            "Description": "Salesforce Landmark-Floor 2",
+        },
+        {
+            "name": "Tableau",
+            "Description": "Tableau Software",
             "ChildLocations": {
-              "records": []
+                "records": [
+                    {
+                        "name": "Tableau-F1",
+                        "Description": "Tableau Software-Floor 1",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Tableau-F1-S1",
+                                    "Description": "Tableau Software-Floor 1-suite 1",
+                                    "ChildLocations": {
+                                        "records": [
+                                            {
+                                                "name": "Tableau-F1-S1-section 1",
+                                                "Description": "Tableau Software-Floor 1-suite 1-section 1",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef11111"
+                                                }
+                                            },
+                                            {
+                                                "name": "Tableau-F1-S1-section 2",
+                                                "Description": "Tableau Software-Floor 1-suite 1-section 2",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef11112"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef1111"
+                                    }
+                                },
+                                {
+                                    "name": "Tableau-F1-S2",
+                                    "Description": "Tableau Software-Floor 1-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef1112"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef111"
+                        }
+                    },
+                    {
+                        "name": "Tableau-F2",
+                        "Description": "Tableau Software-Floor 2",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Tableau-F2-S1",
+                                    "Description": "Tableau Software-Floor 2-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef1121"
+                                    }
+                                },
+                                {
+                                    "name": "Tableau-F2-S2",
+                                    "Description": "Tableau Software-Floor 2-suite 2",
+                                    "ChildLocations": {
+                                        "records": [
+                                            {
+                                                "name": "Tableau-F2-S2-section 1",
+                                                "Description": "Tableau Software-Floor 2-suite 2-section 1",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef11221"
+                                                }
+                                            },
+                                            {
+                                                "name": "Tableau-F2-S2-section 2",
+                                                "Description": "Tableau Software-Floor 2-suite 2-section 2",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef11222"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef1122"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef112"
+                        }
+                    },
+                    {
+                        "name": "Tableau-F3",
+                        "Description": "Tableau Software-Floor 3",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Tableau-F3-S1",
+                                    "Description": "Tableau Software-Floor 3-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef1131"
+                                    }
+                                },
+                                {
+                                    "name": "Tableau-F3-S2",
+                                    "Description": "Tableau Software-Floor 3-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef1132"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef113"
+                        }
+                    }
+                ]
             },
-            "LocationType": "Site",
-            "Latitude": 37.7939222,
-            "Longitude": -122.394815,
+            "LocationType": "Building",
             "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef012"
+                "type": "Location",
+                "referenceId": "buildingRef11"
             }
-          },
-          {
-            "name": "Salesforce Landmark-Floor 3",
-            "Description": "Salesforce Landmark-Floor 3",
+        },
+        {
+            "name": "Louisville",
+            "Description": "Salesforce Louisville",
             "ChildLocations": {
-              "records": []
+                "records": [
+                    {
+                        "name": "Louisville-F1",
+                        "Description": "Salesforce Louisville-Floor 1",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Louisville-F1-S1",
+                                    "Description": "Salesforce Louisville-Floor 1-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef2011"
+                                    }
+                                },
+                                {
+                                    "name": "Louisville-F1-S2",
+                                    "Description": "Salesforce Louisville-Floor 1-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef2012"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef201"
+                        }
+                    },
+                    {
+                        "name": "Louisville-F2",
+                        "Description": "Salesforce Louisville-Floor 2",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Louisville-F2-S1",
+                                    "Description": "Salesforce Louisville-Floor 2-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef2021"
+                                    }
+                                },
+                                {
+                                    "name": "Louisville-F2-S2",
+                                    "Description": "Salesforce Louisville-Floor 2-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef2022"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef202"
+                        }
+                    },
+                    {
+                        "name": "Louisville-F3",
+                        "Description": "Salesforce Louisville-Floor 3",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Louisville-F3-S1",
+                                    "Description": "Salesforce Louisville-Floor 3-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef2031"
+                                    }
+                                },
+                                {
+                                    "name": "Louisville-F3-S2",
+                                    "Description": "Salesforce Louisville-Floor 3-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef2032"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef203"
+                        }
+                    }
+                ]
             },
-            "LocationType": "Site",
-            "Latitude": 37.7939222,
-            "Longitude": -122.394815,
+            "LocationType": "Building",
             "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef013"
+                "type": "Location",
+                "referenceId": "buildingRef20"
             }
-          }
-        ]
-      },
-      "Status__c": "Soft Close",
-      "LocationType": "Site",
-      "Latitude": 37.7939222,
-      "Longitude": -122.394815,
-      "attributes": {
-        "type": "Location",
-        "referenceId": "buildingRef01"
-      }
-    },
-    {
-      "name": "Salesforce Rincon",
-      "Description": "Salesforce Rincon",
-      "ChildLocations": {
-        "records": [
-          {
-            "name": "Salesforce Rincon-Floor 1",
-            "Description": "Salesforce Rincon-Floor 1",
+        },
+        {
+            "name": "Englewood",
+            "Description": "Salesforce Englewood",
             "ChildLocations": {
-              "records": []
+                "records": [
+                    {
+                        "name": "Englewood-F1",
+                        "Description": "Salesforce Englewood-Floor 1",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Englewood-F1-S1",
+                                    "Description": "Salesforce Englewood-Floor 1-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef2111"
+                                    }
+                                },
+                                {
+                                    "name": "Englewood-F1-S2",
+                                    "Description": "Salesforce Englewood-Floor 1-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef2112"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef211"
+                        }
+                    },
+                    {
+                        "name": "Englewood-F2",
+                        "Description": "Salesforce Englewood-Floor 2",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Englewood-F2-S1",
+                                    "Description": "Salesforce Englewood-Floor 2-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef2121"
+                                    }
+                                },
+                                {
+                                    "name": "Englewood-F2-S2",
+                                    "Description": "Salesforce Englewood-Floor 2-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef2122"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef212"
+                        }
+                    },
+                    {
+                        "name": "Englewood-F3",
+                        "Description": "Salesforce Englewood-Floor 3",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "Englewood-F3-S1",
+                                    "Description": "Salesforce Englewood-Floor 3-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef2131"
+                                    }
+                                },
+                                {
+                                    "name": "Englewood-F3-S2",
+                                    "Description": "Salesforce Englewood-Floor 3-suite 2",
+                                    "ChildLocations": {
+                                        "records": [
+                                            {
+                                                "name": "Englewood-F3-S2-section 1",
+                                                "Description": "Salesforce Englewood-Floor 3-suite 2-section 1",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef21321"
+                                                }
+                                            },
+                                            {
+                                                "name": "Englewood-F3-S2-section 2",
+                                                "Description": "Salesforce Englewood-Floor 3-suite 2-section 2",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef21322"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef2132"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef213"
+                        }
+                    }
+                ]
             },
-            "LocationType": "Site",
-            "Latitude": 37.7924804,
-            "Longitude": -122.3935946,
+            "LocationType": "Building",
             "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef021"
-            }
-          },
-          {
-            "name": "Salesforce Rincon-Floor 2",
-            "Description": "Salesforce Rincon-Floor 2",
+                "type": "Location",
+                "referenceId": "buildingRef21"
+            },
+            "ParentLocationId": "@city1361234451"
+        },
+        {
+            "name": "UK LTD Village 9",
+            "Description": "Salesforce UK Limited (Village 9)",
             "ChildLocations": {
-              "records": []
+                "records": [
+                    {
+                        "name": "UK LTD Village 9-F1",
+                        "Description": "Salesforce UK Limited (Village 9)-Floor 1",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "UK LTD Village 9-F1-S1",
+                                    "Description": "Salesforce UK Limited (Village 9)-Floor 1-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef3011"
+                                    }
+                                },
+                                {
+                                    "name": "UK LTD Village 9-F1-S2",
+                                    "Description": "Salesforce UK Limited (Village 9)-Floor 1-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef3012"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef301"
+                        }
+                    },
+                    {
+                        "name": "UK LTD Village 9-F2",
+                        "Description": "Salesforce UK Limited (Village 9)-Floor 2",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "UK LTD Village 9-F2-S1",
+                                    "Description": "Salesforce UK Limited (Village 9)-Floor 2-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef3021"
+                                    }
+                                },
+                                {
+                                    "name": "UK LTD Village 9-F2-S2",
+                                    "Description": "Salesforce UK Limited (Village 9)-Floor 2-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef3022"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef302"
+                        }
+                    },
+                    {
+                        "name": "UK LTD Village 9-F3",
+                        "Description": "Salesforce UK Limited (Village 9)-Floor 3",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "UK LTD Village 9-F3-S1",
+                                    "Description": "Salesforce UK Limited (Village 9)-Floor 3-suite 1",
+                                    "ChildLocations": {
+                                        "records": [
+                                            {
+                                                "name": "UK LTD Village 9-F3-S1-section 1",
+                                                "Description": "Salesforce UK Limited (Village 9)-Floor 3-suite 1-section 1",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef30311"
+                                                }
+                                            },
+                                            {
+                                                "name": "UK LTD Village 9-F3-S1-section 2",
+                                                "Description": "Salesforce UK Limited (Village 9)-Floor 3-suite 1-section 2",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef30312"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef3031"
+                                    }
+                                },
+                                {
+                                    "name": "UK LTD Village 9-F3-S2",
+                                    "Description": "Salesforce UK Limited (Village 9)-Floor 3-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef3032"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef303"
+                        }
+                    }
+                ]
             },
-            "LocationType": "Site",
-            "Latitude": 37.7924804,
-            "Longitude": -122.3935946,
+            "LocationType": "Building",
             "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef022"
+                "type": "Location",
+                "referenceId": "buildingRef30"
             }
-          },
-          {
-            "name": "Salesforce Rincon-Floor 3",
-            "Description": "Salesforce Rincon-Floor 3",
+        },
+        {
+            "name": "UK LTD Lotus Park",
+            "Description": "Salesforce UK Limited (Lotus Park)",
             "ChildLocations": {
-              "records": []
+                "records": [
+                    {
+                        "name": "UK LTD Lotus Park-F1",
+                        "Description": "Salesforce UK Limited (Lotus Park)-Floor 1",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "UK LTD Lotus Park-F1-S1",
+                                    "Description": "Salesforce UK Limited (Lotus Park)-Floor 1-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef4011"
+                                    }
+                                },
+                                {
+                                    "name": "UK LTD Lotus Park-F1-S2",
+                                    "Description": "Salesforce UK Limited (Lotus Park)-Floor 1-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef4012"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef401"
+                        }
+                    },
+                    {
+                        "name": "UK LTD Lotus Park-F2",
+                        "Description": "Salesforce UK Limited (Lotus Park)-Floor 2",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "UK LTD Lotus Park-F2-S1",
+                                    "Description": "Salesforce UK Limited (Lotus Park)-Floor 2-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef4021"
+                                    }
+                                },
+                                {
+                                    "name": "UK LTD Lotus Park-F2-S2",
+                                    "Description": "Salesforce UK Limited (Lotus Park)-Floor 2-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef4022"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef402"
+                        }
+                    },
+                    {
+                        "name": "UK LTD Lotus Park-F3",
+                        "Description": "Salesforce UK Limited (Lotus Park)-Floor 3",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "UK LTD Lotus Park-F3-S1",
+                                    "Description": "Salesforce UK Limited (Lotus Park)-Floor 3-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef4031"
+                                    }
+                                },
+                                {
+                                    "name": "UK LTD Lotus Park-F3-S2",
+                                    "Description": "Salesforce UK Limited (Lotus Park)-Floor 3-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef4032"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef403"
+                        }
+                    }
+                ]
             },
-            "LocationType": "Site",
-            "Latitude": 37.7924804,
-            "Longitude": -122.3935946,
+            "LocationType": "Building",
             "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef023"
+                "type": "Location",
+                "referenceId": "buildingRef40"
             }
-          }
-        ]
-      },
-      "Status__c": "Soft Close",
-      "LocationType": "Site",
-      "Latitude": 37.7924804,
-      "Longitude": -122.3935946,
-      "attributes": {
-        "type": "Location",
-        "referenceId": "buildingRef02"
-      }
-    },
-    {
-      "name": "Salesforce Bellevue",
-      "Description": "Salesforce Bellevue",
-      "ChildLocations": {
-        "records": [
-          {
-            "name": "Salesforce Bellevue-Floor 1",
-            "Description": "Salesforce Bellevue-Floor 1",
+        },
+        {
+            "name": "SF Canada",
+            "Description": "Salesforce Canada Corporation",
             "ChildLocations": {
-              "records": []
+                "records": [
+                    {
+                        "name": "SF Canada-F1",
+                        "Description": "Salesforce Canada Corporation-Floor 1",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "SF Canada-F1-S1",
+                                    "Description": "Salesforce Canada Corporation-Floor 1-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef5011"
+                                    }
+                                },
+                                {
+                                    "name": "SF Canada-F1-S2",
+                                    "Description": "Salesforce Canada Corporation-Floor 1-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef5012"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef501"
+                        }
+                    },
+                    {
+                        "name": "SF Canada-F2",
+                        "Description": "Salesforce Canada Corporation-Floor 2",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "SF Canada-F2-S1",
+                                    "Description": "Salesforce Canada Corporation-Floor 2-suite 1",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef5021"
+                                    }
+                                },
+                                {
+                                    "name": "SF Canada-F2-S2",
+                                    "Description": "Salesforce Canada Corporation-Floor 2-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef5022"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef502"
+                        }
+                    },
+                    {
+                        "name": "SF Canada-F3",
+                        "Description": "Salesforce Canada Corporation-Floor 3",
+                        "ChildLocations": {
+                            "records": [
+                                {
+                                    "name": "SF Canada-F3-S1",
+                                    "Description": "Salesforce Canada Corporation-Floor 3-suite 1",
+                                    "ChildLocations": {
+                                        "records": [
+                                            {
+                                                "name": "SF Canada-F3-S1-section 1",
+                                                "Description": "Salesforce Canada Corporation-Floor 3-suite 1-section 1",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef50311"
+                                                }
+                                            },
+                                            {
+                                                "name": "SF Canada-F3-S1-section 2",
+                                                "Description": "Salesforce Canada Corporation-Floor 3-suite 1-section 2",
+                                                "ChildLocations": {
+                                                    "records": []
+                                                },
+                                                "LocationType": "Space",
+                                                "attributes": {
+                                                    "type": "Location",
+                                                    "referenceId": "sectionRef50312"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef5031"
+                                    }
+                                },
+                                {
+                                    "name": "SF Canada-F3-S2",
+                                    "Description": "Salesforce Canada Corporation-Floor 3-suite 2",
+                                    "ChildLocations": {
+                                        "records": []
+                                    },
+                                    "LocationType": "Space",
+                                    "attributes": {
+                                        "type": "Location",
+                                        "referenceId": "suiteRef5032"
+                                    }
+                                }
+                            ]
+                        },
+                        "LocationType": "Floor",
+                        "attributes": {
+                            "type": "Location",
+                            "referenceId": "floorRef503"
+                        }
+                    }
+                ]
             },
-            "LocationType": "Site",
-            "Latitude": 47.6183274,
-            "Longitude": -122.1968631,
+            "LocationType": "Building",
             "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef101"
-            }
-          },
-          {
-            "name": "Salesforce Bellevue-Floor 2",
-            "Description": "Salesforce Bellevue-Floor 2",
-            "ChildLocations": {
-              "records": []
+                "type": "Location",
+                "referenceId": "buildingRef50"
             },
-            "LocationType": "Site",
-            "Latitude": 47.6183274,
-            "Longitude": -122.1968631,
-            "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef102"
-            }
-          },
-          {
-            "name": "Salesforce Bellevue-Floor 3",
-            "Description": "Salesforce Bellevue-Floor 3",
-            "ChildLocations": {
-              "records": []
-            },
-            "LocationType": "Site",
-            "Latitude": 47.6183274,
-            "Longitude": -122.1968631,
-            "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef103"
-            }
-          }
-        ]
-      },
-      "Status__c": "Hard Close",
-      "LocationType": "Site",
-      "Latitude": 47.6183274,
-      "Longitude": -122.1968631,
-      "attributes": {
-        "type": "Location",
-        "referenceId": "buildingRef10"
-      }
-    },
-    {
-      "name": "Tableau Software",
-      "Description": "Tableau Software",
-      "ChildLocations": {
-        "records": [
-          {
-            "name": "Tableau Software-Floor 1",
-            "Description": "Tableau Software-Floor 1",
-            "ChildLocations": {
-              "records": []
-            },
-            "LocationType": "Site",
-            "Latitude": 47.6478045,
-            "Longitude": -122.3381113,
-            "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef111"
-            }
-          },
-          {
-            "name": "Tableau Software-Floor 2",
-            "Description": "Tableau Software-Floor 2",
-            "ChildLocations": {
-              "records": []
-            },
-            "LocationType": "Site",
-            "Latitude": 47.6478045,
-            "Longitude": -122.3381113,
-            "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef112"
-            }
-          },
-          {
-            "name": "Tableau Software-Floor 3",
-            "Description": "Tableau Software-Floor 3",
-            "ChildLocations": {
-              "records": []
-            },
-            "LocationType": "Site",
-            "Latitude": 47.6478045,
-            "Longitude": -122.3381113,
-            "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef113"
-            }
-          }
-        ]
-      },
-      "Status__c": "Hard Close",
-      "LocationType": "Site",
-      "Latitude": 47.6478045,
-      "Longitude": -122.3381113,
-      "attributes": {
-        "type": "Location",
-        "referenceId": "buildingRef11"
-      }
-    },
-    {
-      "name": "Salesforce Louisville",
-      "Description": "Salesforce Louisville",
-      "ChildLocations": {
-        "records": [
-          {
-            "name": "Salesforce Louisville-Floor 1",
-            "Description": "Salesforce Louisville-Floor 1",
-            "ChildLocations": {
-              "records": []
-            },
-            "LocationType": "Site",
-            "Latitude": 39.9632158,
-            "Longitude": -105.1712275,
-            "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef201"
-            }
-          },
-          {
-            "name": "Salesforce Louisville-Floor 2",
-            "Description": "Salesforce Louisville-Floor 2",
-            "ChildLocations": {
-              "records": []
-            },
-            "LocationType": "Site",
-            "Latitude": 39.9632158,
-            "Longitude": -105.1712275,
-            "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef202"
-            }
-          },
-          {
-            "name": "Salesforce Louisville-Floor 3",
-            "Description": "Salesforce Louisville-Floor 3",
-            "ChildLocations": {
-              "records": []
-            },
-            "LocationType": "Site",
-            "Latitude": 39.9632158,
-            "Longitude": -105.1712275,
-            "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef203"
-            }
-          }
-        ]
-      },
-      "Status__c": "Soft Close",
-      "LocationType": "Site",
-      "Latitude": 39.9632158,
-      "Longitude": -105.1712275,
-      "attributes": {
-        "type": "Location",
-        "referenceId": "buildingRef20"
-      }
-    },
-    {
-      "name": "Salesforce Englewood",
-      "Description": "Salesforce Englewood",
-      "ChildLocations": {
-        "records": [
-          {
-            "name": "Salesforce Englewood-Floor 1",
-            "Description": "Salesforce Englewood-Floor 1",
-            "ChildLocations": {
-              "records": []
-            },
-            "LocationType": "Site",
-            "Latitude": 39.5651477,
-            "Longitude": -104.869645,
-            "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef211"
-            }
-          },
-          {
-            "name": "Salesforce Englewood-Floor 2",
-            "Description": "Salesforce Englewood-Floor 2",
-            "ChildLocations": {
-              "records": []
-            },
-            "LocationType": "Site",
-            "Latitude": 39.5651477,
-            "Longitude": -104.869645,
-            "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef212"
-            }
-          },
-          {
-            "name": "Salesforce Englewood-Floor 3",
-            "Description": "Salesforce Englewood-Floor 3",
-            "ChildLocations": {
-              "records": []
-            },
-            "LocationType": "Site",
-            "Latitude": 39.5651477,
-            "Longitude": -104.869645,
-            "attributes": {
-              "type": "Location",
-              "referenceId": "floorRef213"
-            }
-          }
-        ]
-      },
-      "Status__c": "Reduced Density",
-      "LocationType": "Site",
-      "Latitude": 39.5651477,
-      "Longitude": -104.869645,
-      "attributes": {
-        "type": "Location",
-        "referenceId": "buildingRef21"
-      }
-    }
-  ]
+            "ParentLocationId": "@city30194982"
+        }
+    ]
 }

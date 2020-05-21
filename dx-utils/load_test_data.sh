@@ -7,9 +7,9 @@
 # Example sfdx force:data:tree:import -f Employee__c.json will load data into Employee__c object
 
 
-echo "Load data into InternalOrganizationUnit, Employee and EmployeeHealthAssessment__c"
+echo "Load data into InternalOrganizationUnit, Employee and EmployeeCrisisAssessment"
 { # try
-    sfdx force:data:tree:import -p ./testdata/InternalOrganizationUnit-Employee-EmployeeHealthAssessment__c-plan.json
+    sfdx force:data:tree:import -p ./testdata/InternalOrganizationUnit-Employee-EmployeeCrisisAssessment-plan.json
     sfdx force:apex:execute -f ./dx-utils/apex-scripts/updateLocationVisitorAddressId.apex
 
 } || { # catch

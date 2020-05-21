@@ -11,5 +11,6 @@ dx-utils/apex-scripts/deleteTestData.apex can be used to delete that test data a
 
 Test data is for following objects
 - Location (Core)
-- Employee__c (Command Center Package)
--- We will eventually have new scripts for (Core) Employee object but that will be around May 21
+- Employee (Core)
+- EmployeeCrisisAssessment (Core)
+- Internal Organization Unit (Core)

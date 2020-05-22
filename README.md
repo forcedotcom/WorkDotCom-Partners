@@ -6,6 +6,9 @@
 
 This should create a work.com along with test data.
 
+- Open "Command Center" app to view default dashboard
+- Check Setup guide to configure Command Center
+
 
 
 # Test Data Scripts

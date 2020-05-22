@@ -5,7 +5,7 @@ sfdx force:source:push
 sfdx force:user:permset:assign -n Workplace_Command_Center_Standard_PermSet_Admin_Full_Access_Cloned
 
 #Command Center managed package
-sfdx force:package:install -p 04t5w000004iyOd -k astrolovescodey -w 50
+sfdx force:package:install -p 04t5w000004iySq -k astrolovescodey -w 50
 
 #Command Center un-managed package
 sfdx force:package:install -p 04t5w000005Is02 -k astrolovescodey -w 50

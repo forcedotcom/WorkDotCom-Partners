@@ -10,6 +10,14 @@ sfdx force:package:install -p 04t5w000004iyOd -k astrolovescodey -w 50
 #Command Center un-managed package
 sfdx force:package:install -p 04t5w000005Is02 -k astrolovescodey -w 50
 
+#Permission Sets
+#Workplace Admin
+sfdx force:user:permset:assign -n b2w_Admin
+#Workplace Global Operations
+sfdx force:user:permset:assign -n b2w_GlobalOperations
+#Workplace Operations
+sfdx force:user:permset:assign -n b2w_Operations
+
 #Location.Status__c is NOT included in this data set
 sfdx force:data:tree:import -p ./testdata/InternalOrganizationUnit-Employee-EmployeeCrisisAssessment-plan.json
 

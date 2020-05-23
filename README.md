@@ -10,6 +10,11 @@ This should create a work.com along with test data.
 - Check Setup guide to configure Command Center
 
 
+- Note extra permissionsets in force-app/main/default/permissionsets
+- Those will also be assigned to user
+- Most of those are the same permission from setup guide so you can skip those steps and get right into configuration
+-- Do not use these in an active org with real user data without reviewing all the permissions
+
 
 # Test Data Scripts
 

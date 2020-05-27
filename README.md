@@ -16,7 +16,7 @@ This should create a work.com along with test data.
   - Do not use these in an active org with real user data without reviewing all the permissions
 
 
-# Feature Dependency
+# Feature Dependency check using ISV TE DX Plugin
 ISV TE DX plugin has been updated to look for work.com object usage when you add custom fields on those objects. You will be able to see if your package has added any work.com data model dependencies.
 
 To Install or update the plugin: sfdx plugins:install isvte-sfdx-plugin

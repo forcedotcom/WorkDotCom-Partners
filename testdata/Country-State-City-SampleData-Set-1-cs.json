@@ -7,6 +7,8 @@
             },
             "name": "US",
             "Description": "US",
+            "TimeZone": "America/Indiana/Indianapolis",
+            "wkcc__Status__c": "Hard Close",
             "LocationType": "Site",
             "ChildLocations": {
                 "records": [
@@ -17,6 +19,8 @@
                         },
                         "name": "CA",
                         "Description": "CA",
+                        "TimeZone": "America/Los_Angeles",
+                        "wkcc__Status__c": "Open",
                         "LocationType": "Site",
                         "ChildLocations": {
                             "records": [
@@ -27,6 +31,8 @@
                                     },
                                     "name": "San Francisco",
                                     "Description": "San Francisco",
+                                    "TimeZone": "America/Los_Angeles",
+                                    "wkcc__Status__c": "Hard Close",
                                     "LocationType": "Site",
                                     "ChildLocations": {
                                         "records": []
@@ -42,6 +48,8 @@
                         },
                         "name": "WA",
                         "Description": "WA",
+                        "TimeZone": "America/Los_Angeles",
+                        "wkcc__Status__c": "Hard Close",
                         "LocationType": "Site",
                         "ChildLocations": {
                             "records": [
@@ -52,6 +60,8 @@
                                     },
                                     "name": "Seattle",
                                     "Description": "Seattle",
+                                    "TimeZone": "America/Los_Angeles",
+                                    "wkcc__Status__c": "Open",
                                     "LocationType": "Site",
                                     "ChildLocations": {
                                         "records": []
@@ -67,6 +77,8 @@
                         },
                         "name": "CO",
                         "Description": "CO",
+                        "TimeZone": "America/Denver",
+                        "wkcc__Status__c": "Soft Close",
                         "LocationType": "Site",
                         "ChildLocations": {
                             "records": [
@@ -77,6 +89,8 @@
                                     },
                                     "name": "Denver",
                                     "Description": "Denver",
+                                    "TimeZone": "America/Denver",
+                                    "wkcc__Status__c": "Open",
                                     "LocationType": "Site",
                                     "ChildLocations": {
                                         "records": []
@@ -95,6 +109,8 @@
             },
             "name": "UK",
             "Description": "UK",
+            "TimeZone": "Europe/London",
+            "wkcc__Status__c": "Soft Close",
             "LocationType": "Site",
             "ChildLocations": {
                 "records": [
@@ -103,8 +119,10 @@
                             "type": "Location",
                             "referenceId": "state669668571"
                         },
-                        "name": "London",
-                        "Description": "London",
+                        "name": "London (County)",
+                        "Description": "London (County)",
+                        "TimeZone": "Europe/London",
+                        "wkcc__Status__c": "Open",
                         "LocationType": "Site",
                         "ChildLocations": {
                             "records": [
@@ -113,8 +131,10 @@
                                         "type": "Location",
                                         "referenceId": "city1583169659"
                                     },
-                                    "name": "London",
-                                    "Description": "London",
+                                    "name": "London (City)",
+                                    "Description": "London (City)",
+                                    "TimeZone": "Europe/London",
+                                    "wkcc__Status__c": "Reduced Density",
                                     "LocationType": "Site",
                                     "ChildLocations": {
                                         "records": []
@@ -130,6 +150,8 @@
                         },
                         "name": "Middlesex",
                         "Description": "Middlesex",
+                        "TimeZone": "Europe/London",
+                        "wkcc__Status__c": "Reduced Density",
                         "LocationType": "Site",
                         "ChildLocations": {
                             "records": [
@@ -140,6 +162,8 @@
                                     },
                                     "name": "Stains",
                                     "Description": "Stains",
+                                    "TimeZone": "Europe/London",
+                                    "wkcc__Status__c": "Soft Close",
                                     "LocationType": "Site",
                                     "ChildLocations": {
                                         "records": []
@@ -158,6 +182,8 @@
             },
             "name": "Canada",
             "Description": "Canada",
+            "TimeZone": "America/New_York",
+            "wkcc__Status__c": "Open",
             "LocationType": "Site",
             "ChildLocations": {
                 "records": [
@@ -168,6 +194,8 @@
                         },
                         "name": "ON",
                         "Description": "ON",
+                        "TimeZone": "America/New_York",
+                        "wkcc__Status__c": "Hard Close",
                         "LocationType": "Site",
                         "ChildLocations": {
                             "records": [
@@ -178,6 +206,8 @@
                                     },
                                     "name": "Toronto",
                                     "Description": "Toronto",
+                                    "TimeZone": "America/New_York",
+                                    "wkcc__Status__c": "Soft Close",
                                     "LocationType": "Site",
                                     "ChildLocations": {
                                         "records": []

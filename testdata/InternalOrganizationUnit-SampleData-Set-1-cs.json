@@ -7,7 +7,7 @@
         "type": "InternalOrganizationUnit",
         "referenceId": "orgRef1"
       },
-      "EmployeeOrganizationUnits": {
+      "InternalOrganizationUnits": {
         "records": [
           {
             "Description": "Sales",
@@ -16,7 +16,7 @@
               "type": "InternalOrganizationUnit",
               "referenceId": "orgRef2"
             },
-            "EmployeeOrganizationUnits": {
+            "InternalOrganizationUnits": {
               "records": [
                 {
                   "Description": "Sales - HQ",
@@ -25,7 +25,7 @@
                     "type": "InternalOrganizationUnit",
                     "referenceId": "orgRef4"
                   },
-                  "EmployeeOrganizationUnits": {
+                  "InternalOrganizationUnits": {
                     "records": []
                   }
                 },
@@ -36,7 +36,7 @@
                     "type": "InternalOrganizationUnit",
                     "referenceId": "orgRef5"
                   },
-                  "EmployeeOrganizationUnits": {
+                  "InternalOrganizationUnits": {
                     "records": []
                   }
                 },
@@ -47,7 +47,7 @@
                     "type": "InternalOrganizationUnit",
                     "referenceId": "orgRef6"
                   },
-                  "EmployeeOrganizationUnits": {
+                  "InternalOrganizationUnits": {
                     "records": []
                   }
                 }
@@ -61,7 +61,7 @@
               "type": "InternalOrganizationUnit",
               "referenceId": "orgRef3"
             },
-            "EmployeeOrganizationUnits": {
+            "InternalOrganizationUnits": {
               "records": [
                 {
                   "Description": "Engineering - HQ",
@@ -70,7 +70,7 @@
                     "type": "InternalOrganizationUnit",
                     "referenceId": "orgRef7"
                   },
-                  "EmployeeOrganizationUnits": {
+                  "InternalOrganizationUnits": {
                     "records": []
                   }
                 },
@@ -81,7 +81,7 @@
                     "type": "InternalOrganizationUnit",
                     "referenceId": "orgRef8"
                   },
-                  "EmployeeOrganizationUnits": {
+                  "InternalOrganizationUnits": {
                     "records": []
                   }
                 },
@@ -92,7 +92,7 @@
                     "type": "InternalOrganizationUnit",
                     "referenceId": "orgRef9"
                   },
-                  "EmployeeOrganizationUnits": {
+                  "InternalOrganizationUnits": {
                     "records": []
                   }
                 }

@@ -20,6 +20,7 @@ sfdx force:user:permset:assign -n b2w_Admin
 sfdx force:user:permset:assign -n b2w_GlobalOperations
 #Workplace Operations
 sfdx force:user:permset:assign -n b2w_Operations
+
 #All AddOn Permission Sets
 sfdx force:user:permset:assign -n b2w_OperationsExecutiveAddOn
 sfdx force:user:permset:assign -n b2w_Workplace_Operations_Addon
@@ -28,6 +29,8 @@ sfdx force:user:permset:assign -n b2w_AdminAddOn
 sfdx force:user:permset:assign -n b2w_GlobalOperationsExecutiveAddOn
 sfdx force:user:permset:assign -n b2w_GlobalOperationsAddOn
 
+#Custom Permission set to grant access to Location.Status__c that is in managed package
+sfdx force:user:permset:assign -n Workplace_Command_Center_Location_Admin
 
 
 #Location.Status__c is NOT included in this data set

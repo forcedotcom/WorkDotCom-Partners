@@ -3,21 +3,25 @@
         {
             "name": "Tower",
             "Description": "Salesforce Tower",
+            "TimeZone": "America/Los_Angeles",
             "ChildLocations": {
                 "records": [
                     {
                         "name": "Tower-FL1",
                         "Description": "Salesforce Tower-Floor 1",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Tower-F1-S1",
                                     "Description": "Salesforce Tower-Floor 1-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": [
                                             {
                                                 "name": "Tower-F1-S1-section 1",
                                                 "Description": "Salesforce Tower-Floor 1-suite 1-section 1",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -30,6 +34,7 @@
                                             {
                                                 "name": "Tower-F1-S1-section 2",
                                                 "Description": "Salesforce Tower-Floor 1-suite 1-section 2",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -50,6 +55,7 @@
                                 {
                                     "name": "Tower-F1-S2",
                                     "Description": "Salesforce Tower-Floor 1-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -70,11 +76,13 @@
                     {
                         "name": "Tower-F2",
                         "Description": "Salesforce Tower-Floor 2",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Tower-F2-S1",
                                     "Description": "Salesforce Tower-Floor 2-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -87,6 +95,7 @@
                                 {
                                     "name": "Tower-F2-S2",
                                     "Description": "Salesforce Tower-Floor 2-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -107,11 +116,13 @@
                     {
                         "name": "Tower-F3",
                         "Description": "Salesforce Tower-Floor 3",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Tower-F3-S1",
                                     "Description": "Salesforce Tower-Floor 3-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -124,6 +135,7 @@
                                 {
                                     "name": "Tower-F3-S2",
                                     "Description": "Salesforce Tower-Floor 3-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -143,6 +155,7 @@
                     }
                 ]
             },
+            "wkcc__Status__c": "Open",
             "LocationType": "Building",
             "attributes": {
                 "type": "Location",
@@ -152,16 +165,19 @@
         {
             "name": "Landmark",
             "Description": "Salesforce Landmark",
+            "TimeZone": "America/Los_Angeles",
             "ChildLocations": {
                 "records": [
                     {
                         "name": "Landmark-F1",
                         "Description": "Salesforce Landmark-Floor 1",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Landmark-F1-S1",
                                     "Description": "Salesforce Landmark-Floor 1-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -174,6 +190,7 @@
                                 {
                                     "name": "Landmark-F1-S2",
                                     "Description": "Salesforce Landmark-Floor 1-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -194,11 +211,13 @@
                     {
                         "name": "Landmark-F2",
                         "Description": "Salesforce Landmark-Floor 2",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Landmark-F2-S1",
                                     "Description": "Salesforce Landmark-Floor 2-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -211,11 +230,13 @@
                                 {
                                     "name": "Landmark-F2-S2",
                                     "Description": "Salesforce Landmark-Floor 2-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": [
                                             {
                                                 "name": "Landmark-F2-S2-section 1",
                                                 "Description": "Salesforce Landmark-Floor 2-suite 2-section 1",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -228,6 +249,7 @@
                                             {
                                                 "name": "Landmark-F2-S2-section 2",
                                                 "Description": "Salesforce Landmark-Floor 2-suite 2-section 2",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -256,16 +278,19 @@
                     {
                         "name": "Landmark-F3",
                         "Description": "Salesforce Landmark-Floor 3",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Landmark-F3-S1",
                                     "Description": "Salesforce Landmark-Floor 3-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": [
                                             {
                                                 "name": "Landmark-F3-S1-section 1",
                                                 "Description": "Salesforce Landmark-Floor 3-suite 1-section 1",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -278,6 +303,7 @@
                                             {
                                                 "name": "Landmark-F3-S1-section 2",
                                                 "Description": "Salesforce Landmark-Floor 3-suite 1-section 2",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -298,6 +324,7 @@
                                 {
                                     "name": "Landmark-F3-S2",
                                     "Description": "Salesforce Landmark-Floor 3-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -317,6 +344,7 @@
                     }
                 ]
             },
+            "wkcc__Status__c": "Soft Close",
             "LocationType": "Building",
             "attributes": {
                 "type": "Location",
@@ -326,21 +354,25 @@
         {
             "name": "Rincon",
             "Description": "Salesforce Rincon",
+            "TimeZone": "America/Los_Angeles",
             "ChildLocations": {
                 "records": [
                     {
                         "name": "Rincon-F1",
                         "Description": "Salesforce Rincon-Floor 1",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Rincon-F1-S1",
                                     "Description": "Salesforce Rincon-Floor 1-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": [
                                             {
                                                 "name": "Rincon-F1-S1-section 1",
                                                 "Description": "Salesforce Rincon-Floor 1-suite 1-section 1",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -353,6 +385,7 @@
                                             {
                                                 "name": "Rincon-F1-S1-section 2",
                                                 "Description": "Salesforce Rincon-Floor 1-suite 1-section 2",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -373,6 +406,7 @@
                                 {
                                     "name": "Rincon-F1-S2",
                                     "Description": "Salesforce Rincon-Floor 1-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -393,11 +427,13 @@
                     {
                         "name": "Rincon-F2",
                         "Description": "Salesforce Rincon-Floor 2",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Rincon-F2-S1",
                                     "Description": "Salesforce Rincon-Floor 2-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -410,6 +446,7 @@
                                 {
                                     "name": "Rincon-F2-S2",
                                     "Description": "Salesforce Rincon-Floor 2-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -430,11 +467,13 @@
                     {
                         "name": "Rincon-F3",
                         "Description": "Salesforce Rincon-Floor 3",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Rincon-F3-S1",
                                     "Description": "Salesforce Rincon-Floor 3-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -447,6 +486,7 @@
                                 {
                                     "name": "Rincon-F3-S2",
                                     "Description": "Salesforce Rincon-Floor 3-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -466,6 +506,7 @@
                     }
                 ]
             },
+            "wkcc__Status__c": "Soft Close",
             "LocationType": "Building",
             "attributes": {
                 "type": "Location",
@@ -476,16 +517,19 @@
         {
             "name": "Bellevue",
             "Description": "Salesforce Bellevue",
+            "TimeZone": "America/Los_Angeles",
             "ChildLocations": {
                 "records": [
                     {
                         "name": "Bellevue-F1",
                         "Description": "Salesforce Bellevue-Floor 1",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Bellevue-F1-S1",
                                     "Description": "Salesforce Bellevue-Floor 1-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -498,11 +542,13 @@
                                 {
                                     "name": "Bellevue-F1-S2",
                                     "Description": "Salesforce Bellevue-Floor 1-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": [
                                             {
                                                 "name": "Bellevue-F1-S2-section 1",
                                                 "Description": "Salesforce Bellevue-Floor 1-suite 2-section 1",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -515,6 +561,7 @@
                                             {
                                                 "name": "Bellevue-F1-S2-section 2",
                                                 "Description": "Salesforce Bellevue-Floor 1-suite 2-section 2",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -543,11 +590,13 @@
                     {
                         "name": "Bellevue-F2",
                         "Description": "Salesforce Bellevue-Floor 2",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Bellevue-F2-S1",
                                     "Description": "Salesforce Bellevue-Floor 2-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -560,6 +609,7 @@
                                 {
                                     "name": "Bellevue-F2-S2",
                                     "Description": "Salesforce Bellevue-Floor 2-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -580,11 +630,13 @@
                     {
                         "name": "Bellevue-F3",
                         "Description": "Salesforce Bellevue-Floor 3",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Bellevue-F3-S1",
                                     "Description": "Salesforce Bellevue-Floor 3-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -597,6 +649,7 @@
                                 {
                                     "name": "Bellevue-F3-S2",
                                     "Description": "Salesforce Bellevue-Floor 3-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -616,6 +669,7 @@
                     }
                 ]
             },
+            "wkcc__Status__c": "Open",
             "LocationType": "Building",
             "attributes": {
                 "type": "Location",
@@ -625,21 +679,25 @@
         {
             "name": "Tableau",
             "Description": "Tableau Software",
+            "TimeZone": "America/Los_Angeles",
             "ChildLocations": {
                 "records": [
                     {
                         "name": "Tableau-F1",
                         "Description": "Tableau Software-Floor 1",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Tableau-F1-S1",
                                     "Description": "Tableau Software-Floor 1-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": [
                                             {
                                                 "name": "Tableau-F1-S1-section 1",
                                                 "Description": "Tableau Software-Floor 1-suite 1-section 1",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -652,6 +710,7 @@
                                             {
                                                 "name": "Tableau-F1-S1-section 2",
                                                 "Description": "Tableau Software-Floor 1-suite 1-section 2",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -672,6 +731,7 @@
                                 {
                                     "name": "Tableau-F1-S2",
                                     "Description": "Tableau Software-Floor 1-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -692,11 +752,13 @@
                     {
                         "name": "Tableau-F2",
                         "Description": "Tableau Software-Floor 2",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Tableau-F2-S1",
                                     "Description": "Tableau Software-Floor 2-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -709,11 +771,13 @@
                                 {
                                     "name": "Tableau-F2-S2",
                                     "Description": "Tableau Software-Floor 2-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": [
                                             {
                                                 "name": "Tableau-F2-S2-section 1",
                                                 "Description": "Tableau Software-Floor 2-suite 2-section 1",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -726,6 +790,7 @@
                                             {
                                                 "name": "Tableau-F2-S2-section 2",
                                                 "Description": "Tableau Software-Floor 2-suite 2-section 2",
+                                                "TimeZone": "America/Los_Angeles",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -754,11 +819,13 @@
                     {
                         "name": "Tableau-F3",
                         "Description": "Tableau Software-Floor 3",
+                        "TimeZone": "America/Los_Angeles",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Tableau-F3-S1",
                                     "Description": "Tableau Software-Floor 3-suite 1",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -771,6 +838,7 @@
                                 {
                                     "name": "Tableau-F3-S2",
                                     "Description": "Tableau Software-Floor 3-suite 2",
+                                    "TimeZone": "America/Los_Angeles",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -790,6 +858,7 @@
                     }
                 ]
             },
+            "wkcc__Status__c": "Hard Close",
             "LocationType": "Building",
             "attributes": {
                 "type": "Location",
@@ -799,16 +868,19 @@
         {
             "name": "Louisville",
             "Description": "Salesforce Louisville",
+            "TimeZone": "America/Denver",
             "ChildLocations": {
                 "records": [
                     {
                         "name": "Louisville-F1",
                         "Description": "Salesforce Louisville-Floor 1",
+                        "TimeZone": "America/Denver",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Louisville-F1-S1",
                                     "Description": "Salesforce Louisville-Floor 1-suite 1",
+                                    "TimeZone": "America/Denver",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -821,6 +893,7 @@
                                 {
                                     "name": "Louisville-F1-S2",
                                     "Description": "Salesforce Louisville-Floor 1-suite 2",
+                                    "TimeZone": "America/Denver",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -841,11 +914,13 @@
                     {
                         "name": "Louisville-F2",
                         "Description": "Salesforce Louisville-Floor 2",
+                        "TimeZone": "America/Denver",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Louisville-F2-S1",
                                     "Description": "Salesforce Louisville-Floor 2-suite 1",
+                                    "TimeZone": "America/Denver",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -858,6 +933,7 @@
                                 {
                                     "name": "Louisville-F2-S2",
                                     "Description": "Salesforce Louisville-Floor 2-suite 2",
+                                    "TimeZone": "America/Denver",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -878,11 +954,13 @@
                     {
                         "name": "Louisville-F3",
                         "Description": "Salesforce Louisville-Floor 3",
+                        "TimeZone": "America/Denver",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Louisville-F3-S1",
                                     "Description": "Salesforce Louisville-Floor 3-suite 1",
+                                    "TimeZone": "America/Denver",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -895,6 +973,7 @@
                                 {
                                     "name": "Louisville-F3-S2",
                                     "Description": "Salesforce Louisville-Floor 3-suite 2",
+                                    "TimeZone": "America/Denver",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -914,6 +993,7 @@
                     }
                 ]
             },
+            "wkcc__Status__c": "Open",
             "LocationType": "Building",
             "attributes": {
                 "type": "Location",
@@ -923,16 +1003,19 @@
         {
             "name": "Englewood",
             "Description": "Salesforce Englewood",
+            "TimeZone": "America/Denver",
             "ChildLocations": {
                 "records": [
                     {
                         "name": "Englewood-F1",
                         "Description": "Salesforce Englewood-Floor 1",
+                        "TimeZone": "America/Denver",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Englewood-F1-S1",
                                     "Description": "Salesforce Englewood-Floor 1-suite 1",
+                                    "TimeZone": "America/Denver",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -945,6 +1028,7 @@
                                 {
                                     "name": "Englewood-F1-S2",
                                     "Description": "Salesforce Englewood-Floor 1-suite 2",
+                                    "TimeZone": "America/Denver",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -965,11 +1049,13 @@
                     {
                         "name": "Englewood-F2",
                         "Description": "Salesforce Englewood-Floor 2",
+                        "TimeZone": "America/Denver",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Englewood-F2-S1",
                                     "Description": "Salesforce Englewood-Floor 2-suite 1",
+                                    "TimeZone": "America/Denver",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -982,6 +1068,7 @@
                                 {
                                     "name": "Englewood-F2-S2",
                                     "Description": "Salesforce Englewood-Floor 2-suite 2",
+                                    "TimeZone": "America/Denver",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1002,11 +1089,13 @@
                     {
                         "name": "Englewood-F3",
                         "Description": "Salesforce Englewood-Floor 3",
+                        "TimeZone": "America/Denver",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "Englewood-F3-S1",
                                     "Description": "Salesforce Englewood-Floor 3-suite 1",
+                                    "TimeZone": "America/Denver",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1019,11 +1108,13 @@
                                 {
                                     "name": "Englewood-F3-S2",
                                     "Description": "Salesforce Englewood-Floor 3-suite 2",
+                                    "TimeZone": "America/Denver",
                                     "ChildLocations": {
                                         "records": [
                                             {
                                                 "name": "Englewood-F3-S2-section 1",
                                                 "Description": "Salesforce Englewood-Floor 3-suite 2-section 1",
+                                                "TimeZone": "America/Denver",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -1036,6 +1127,7 @@
                                             {
                                                 "name": "Englewood-F3-S2-section 2",
                                                 "Description": "Salesforce Englewood-Floor 3-suite 2-section 2",
+                                                "TimeZone": "America/Denver",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -1063,6 +1155,7 @@
                     }
                 ]
             },
+            "wkcc__Status__c": "Open",
             "LocationType": "Building",
             "attributes": {
                 "type": "Location",
@@ -1073,16 +1166,19 @@
         {
             "name": "UK LTD Village 9",
             "Description": "Salesforce UK Limited (Village 9)",
+            "TimeZone": "Europe/London",
             "ChildLocations": {
                 "records": [
                     {
                         "name": "UK LTD Village 9-F1",
                         "Description": "Salesforce UK Limited (Village 9)-Floor 1",
+                        "TimeZone": "Europe/London",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "UK LTD Village 9-F1-S1",
                                     "Description": "Salesforce UK Limited (Village 9)-Floor 1-suite 1",
+                                    "TimeZone": "Europe/London",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1095,6 +1191,7 @@
                                 {
                                     "name": "UK LTD Village 9-F1-S2",
                                     "Description": "Salesforce UK Limited (Village 9)-Floor 1-suite 2",
+                                    "TimeZone": "Europe/London",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1115,11 +1212,13 @@
                     {
                         "name": "UK LTD Village 9-F2",
                         "Description": "Salesforce UK Limited (Village 9)-Floor 2",
+                        "TimeZone": "Europe/London",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "UK LTD Village 9-F2-S1",
                                     "Description": "Salesforce UK Limited (Village 9)-Floor 2-suite 1",
+                                    "TimeZone": "Europe/London",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1132,6 +1231,7 @@
                                 {
                                     "name": "UK LTD Village 9-F2-S2",
                                     "Description": "Salesforce UK Limited (Village 9)-Floor 2-suite 2",
+                                    "TimeZone": "Europe/London",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1152,16 +1252,19 @@
                     {
                         "name": "UK LTD Village 9-F3",
                         "Description": "Salesforce UK Limited (Village 9)-Floor 3",
+                        "TimeZone": "Europe/London",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "UK LTD Village 9-F3-S1",
                                     "Description": "Salesforce UK Limited (Village 9)-Floor 3-suite 1",
+                                    "TimeZone": "Europe/London",
                                     "ChildLocations": {
                                         "records": [
                                             {
                                                 "name": "UK LTD Village 9-F3-S1-section 1",
                                                 "Description": "Salesforce UK Limited (Village 9)-Floor 3-suite 1-section 1",
+                                                "TimeZone": "Europe/London",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -1174,6 +1277,7 @@
                                             {
                                                 "name": "UK LTD Village 9-F3-S1-section 2",
                                                 "Description": "Salesforce UK Limited (Village 9)-Floor 3-suite 1-section 2",
+                                                "TimeZone": "Europe/London",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -1194,6 +1298,7 @@
                                 {
                                     "name": "UK LTD Village 9-F3-S2",
                                     "Description": "Salesforce UK Limited (Village 9)-Floor 3-suite 2",
+                                    "TimeZone": "Europe/London",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1213,6 +1318,7 @@
                     }
                 ]
             },
+            "wkcc__Status__c": "Reduced Density",
             "LocationType": "Building",
             "attributes": {
                 "type": "Location",
@@ -1222,16 +1328,19 @@
         {
             "name": "UK LTD Lotus Park",
             "Description": "Salesforce UK Limited (Lotus Park)",
+            "TimeZone": "Europe/London",
             "ChildLocations": {
                 "records": [
                     {
                         "name": "UK LTD Lotus Park-F1",
                         "Description": "Salesforce UK Limited (Lotus Park)-Floor 1",
+                        "TimeZone": "Europe/London",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "UK LTD Lotus Park-F1-S1",
                                     "Description": "Salesforce UK Limited (Lotus Park)-Floor 1-suite 1",
+                                    "TimeZone": "Europe/London",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1244,6 +1353,7 @@
                                 {
                                     "name": "UK LTD Lotus Park-F1-S2",
                                     "Description": "Salesforce UK Limited (Lotus Park)-Floor 1-suite 2",
+                                    "TimeZone": "Europe/London",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1264,11 +1374,13 @@
                     {
                         "name": "UK LTD Lotus Park-F2",
                         "Description": "Salesforce UK Limited (Lotus Park)-Floor 2",
+                        "TimeZone": "Europe/London",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "UK LTD Lotus Park-F2-S1",
                                     "Description": "Salesforce UK Limited (Lotus Park)-Floor 2-suite 1",
+                                    "TimeZone": "Europe/London",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1281,6 +1393,7 @@
                                 {
                                     "name": "UK LTD Lotus Park-F2-S2",
                                     "Description": "Salesforce UK Limited (Lotus Park)-Floor 2-suite 2",
+                                    "TimeZone": "Europe/London",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1301,11 +1414,13 @@
                     {
                         "name": "UK LTD Lotus Park-F3",
                         "Description": "Salesforce UK Limited (Lotus Park)-Floor 3",
+                        "TimeZone": "Europe/London",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "UK LTD Lotus Park-F3-S1",
                                     "Description": "Salesforce UK Limited (Lotus Park)-Floor 3-suite 1",
+                                    "TimeZone": "Europe/London",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1318,6 +1433,7 @@
                                 {
                                     "name": "UK LTD Lotus Park-F3-S2",
                                     "Description": "Salesforce UK Limited (Lotus Park)-Floor 3-suite 2",
+                                    "TimeZone": "Europe/London",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1337,6 +1453,7 @@
                     }
                 ]
             },
+            "wkcc__Status__c": "Reduced Density",
             "LocationType": "Building",
             "attributes": {
                 "type": "Location",
@@ -1346,16 +1463,19 @@
         {
             "name": "SF Canada",
             "Description": "Salesforce Canada Corporation",
+            "TimeZone": "America/New_York",
             "ChildLocations": {
                 "records": [
                     {
                         "name": "SF Canada-F1",
                         "Description": "Salesforce Canada Corporation-Floor 1",
+                        "TimeZone": "America/New_York",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "SF Canada-F1-S1",
                                     "Description": "Salesforce Canada Corporation-Floor 1-suite 1",
+                                    "TimeZone": "America/New_York",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1368,6 +1488,7 @@
                                 {
                                     "name": "SF Canada-F1-S2",
                                     "Description": "Salesforce Canada Corporation-Floor 1-suite 2",
+                                    "TimeZone": "America/New_York",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1388,11 +1509,13 @@
                     {
                         "name": "SF Canada-F2",
                         "Description": "Salesforce Canada Corporation-Floor 2",
+                        "TimeZone": "America/New_York",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "SF Canada-F2-S1",
                                     "Description": "Salesforce Canada Corporation-Floor 2-suite 1",
+                                    "TimeZone": "America/New_York",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1405,6 +1528,7 @@
                                 {
                                     "name": "SF Canada-F2-S2",
                                     "Description": "Salesforce Canada Corporation-Floor 2-suite 2",
+                                    "TimeZone": "America/New_York",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1425,16 +1549,19 @@
                     {
                         "name": "SF Canada-F3",
                         "Description": "Salesforce Canada Corporation-Floor 3",
+                        "TimeZone": "America/New_York",
                         "ChildLocations": {
                             "records": [
                                 {
                                     "name": "SF Canada-F3-S1",
                                     "Description": "Salesforce Canada Corporation-Floor 3-suite 1",
+                                    "TimeZone": "America/New_York",
                                     "ChildLocations": {
                                         "records": [
                                             {
                                                 "name": "SF Canada-F3-S1-section 1",
                                                 "Description": "Salesforce Canada Corporation-Floor 3-suite 1-section 1",
+                                                "TimeZone": "America/New_York",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -1447,6 +1574,7 @@
                                             {
                                                 "name": "SF Canada-F3-S1-section 2",
                                                 "Description": "Salesforce Canada Corporation-Floor 3-suite 1-section 2",
+                                                "TimeZone": "America/New_York",
                                                 "ChildLocations": {
                                                     "records": []
                                                 },
@@ -1467,6 +1595,7 @@
                                 {
                                     "name": "SF Canada-F3-S2",
                                     "Description": "Salesforce Canada Corporation-Floor 3-suite 2",
+                                    "TimeZone": "America/New_York",
                                     "ChildLocations": {
                                         "records": []
                                     },
@@ -1486,6 +1615,7 @@
                     }
                 ]
             },
+            "wkcc__Status__c": "Open",
             "LocationType": "Building",
             "attributes": {
                 "type": "Location",

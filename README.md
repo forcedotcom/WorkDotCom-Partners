@@ -1,8 +1,10 @@
 # Setup work.com scratch org
 
-- Clone this project locally: git clone https://github.com/forcedotcom/WorkDotCom-Partners
-- Run orgInit.sh file: ./orgInit.sh
--- Check https://github.com/forcedotcom/WorkDotCom-Partners/blob/master/orgInit.sh for commands
+- Clone this project locally: 
+-- git clone https://github.com/forcedotcom/WorkDotCom-Partners
+- Run orgInit.sh file: Check https://github.com/forcedotcom/WorkDotCom-Partners/blob/master/orgInit.sh for commands
+-- ./orgInit.sh
+
 
 This should create a work.com along with test data.
 

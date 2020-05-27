@@ -1,14 +1,15 @@
 sfdx force:org:create -f config/project-scratch-def.json  -a WDCScratchOrg -s -d 7
 
-#SOurce code has a permission set with workplace license
-#This will auto assign WOrkplace license to the user
-sfdx force:source:push
 
 #Command Center managed package
 sfdx force:package:install -p 04t5w000004iySq -k astrolovescodey -w 50
 
 #Command Center un-managed package
 sfdx force:package:install -p 04t5w000005Is02 -k astrolovescodey -w 50
+#SOurce code has a permission set with workplace license
+#This will auto assign WOrkplace license to the user
+sfdx force:source:push
+
 
 
 #Perm sets have some fields from managed package so package needs to be installed first

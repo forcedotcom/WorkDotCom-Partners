@@ -1,7 +1,7 @@
 # Setup work.com scratch org
 
 - Clone this project locally: 
-  - git clone https://github.com/forcedotcom/WorkDotCom-Partners
+  - git clone https://github.com/forcedotcom/WorkDotCom-Partners.git
 - Run orgInit.sh file: Check https://github.com/forcedotcom/WorkDotCom-Partners/blob/master/orgInit.sh for commands
   - ./orgInit.sh
 

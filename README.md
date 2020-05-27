@@ -16,6 +16,24 @@ This should create a work.com along with test data.
   - Do not use these in an active org with real user data without reviewing all the permissions
 
 
+# Feature Dependency
+ISV TE DX plugin has been updated to look for work.com object usage when you add custom fields on those objects. You will be able to see if your package has added any work.com data model dependencies.
+
+To Install or update the plugin: sfdx plugins:install isvte-sfdx-plugin
+
+When executed against a package with depends on Work.com you will see output similar to:
+
+ 
+=== Installation Warnings
+
+Can be installed in any Edition
+
+
+Feature and License Dependencies:
+
+  Work.com
+
+More information about this plugin can be found at https://medium.com/inside-the-salesforce-ecosystem/build-better-apps-for-your-customers-with-this-new-dx-plug-in-4877fa0fc305
 # Test Data Scripts
 
 You can run data scripts using dx-utils/load_test_data.sh file if you don't want to create entire project.

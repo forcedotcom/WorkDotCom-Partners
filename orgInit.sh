@@ -42,4 +42,7 @@ sfdx force:data:tree:import -p ./testdata/InternalOrganizationUnit-Employee-Empl
 
 sfdx force:apex:execute -f ./dx-utils/apex-scripts/updateLocationVisitorAddressId.apex
 
+#Extra steps like resetting password for scartch org (if needed)
+sfdx force:apex:execute -f config/create-demo-data-setup.apex
+
 sfdx force:org:open 

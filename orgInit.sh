@@ -7,6 +7,12 @@ sfdx force:package:install -p 04t5w000005dcR9 -w 50
 #Command Center un-managed package
 sfdx force:package:install -p 04t5w000005au3o -w 50
 
+
+#Install un-managed packages from Appiphony for their sample Building Management App
+# https://github.com/appiphony/building-management-app
+#sfdx force:package:install -p 04t5w000005qoKM -w 50
+#sfdx force:package:install -p 04t4S000000grmh -w 50
+
 #Perm sets have some fields from managed package so package needs to be installed first
 
 #SOurce code has a permission set with workplace license
@@ -41,6 +47,9 @@ sfdx force:user:permset:assign -n Workplace_Command_Center_Location_Admin
 sfdx force:data:tree:import -p ./testdata/InternalOrganizationUnit-Employee-EmployeeCrisisAssessment-plan.json
 
 sfdx force:apex:execute -f ./dx-utils/apex-scripts/updateLocationVisitorAddressId.apex
+
+#Post install file from Appiphony app
+#sfdx force:apex:execute -f ./dx-utils/apex-scripts/convertData.apex
 
 #Extra steps like resetting password for scartch org (if needed)
 sfdx force:apex:execute -f config/create-demo-data-setup.apex

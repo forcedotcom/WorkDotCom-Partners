@@ -28,7 +28,7 @@
         <enableCSPOnEmail>true</enableCSPOnEmail>
         <enableCSRFOnGet>true</enableCSRFOnGet>
         <enableCSRFOnPost>true</enableCSRFOnPost>
-        <enableCacheAndAutocomplete>true</enableCacheAndAutocomplete>
+        <enableCacheAndAutocomplete>false</enableCacheAndAutocomplete>
         <enableClickjackNonsetupSFDC>true</enableClickjackNonsetupSFDC>
         <enableClickjackNonsetupUser>false</enableClickjackNonsetupUser>
         <enableClickjackNonsetupUserHeaderless>false</enableClickjackNonsetupUserHeaderless>

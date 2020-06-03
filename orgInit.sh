@@ -42,6 +42,8 @@ sfdx force:user:permset:assign -n b2w_GlobalOperationsAddOn
 #Custom Permission set to grant access to Location.Status__c that is in managed package
 sfdx force:user:permset:assign -n Workplace_Command_Center_Location_Admin
 
+#Appiphony app permission set
+sfdx force:user:permset:assign -n  Command_Center_Appiphony_App_Admin
 
 #Location.Status__c is NOT included in this data set
 sfdx force:data:tree:import -p ./testdata/InternalOrganizationUnit-Employee-EmployeeCrisisAssessment-plan.json

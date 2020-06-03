@@ -52,6 +52,6 @@ sfdx force:apex:execute -f ./dx-utils/apex-scripts/updateLocationVisitorAddressI
 #sfdx force:apex:execute -f ./dx-utils/apex-scripts/convertData.apex
 
 #Extra steps like resetting password for scartch org (if needed)
-sfdx force:apex:execute -f config/create-demo-data-setup.apex
+sfdx force:apex:execute -f ./dx-utils/apex-scripts/demo-setup.apex
 
 sfdx force:org:open 

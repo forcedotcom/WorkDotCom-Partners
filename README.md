@@ -40,6 +40,8 @@ Please note extra permissionsets in force-app/main/default/permissionsets
 ## Are there any sample apps that can help me build an app for work.com?
 Appiphony, a PDO, has built an app that you can use to check for code samples. https://github.com/appiphony/building-management-app
 
+We have created custom version of "Command Center" App's Home page and pre-added Appiphony components. You can use above repo to look at the source.
+
 ## Can ISVs check what features they may have used in their packages?
 
 Yes, you can check that using ISV TE DX Plugin. ISV TE DX plugin has been updated to look for work.com object usage when you add custom fields on those objects. You will be able to see if your package has added any work.com data model dependencies.

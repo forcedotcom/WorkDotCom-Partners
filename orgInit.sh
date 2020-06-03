@@ -10,8 +10,8 @@ sfdx force:package:install -p 04t5w000005au3o -w 50
 
 #Install un-managed packages from Appiphony for their sample Building Management App
 # https://github.com/appiphony/building-management-app
-#sfdx force:package:install -p 04t5w000005qoKM -w 50
-#sfdx force:package:install -p 04t4S000000grmh -w 50
+sfdx ssfdx force:package:install -p 04t5w000004Lpu3 -w 50
+sfdx force:package:install -p 04t4S000000hQe7 -w 50
 
 #Perm sets have some fields from managed package so package needs to be installed first
 
@@ -49,7 +49,7 @@ sfdx force:data:tree:import -p ./testdata/InternalOrganizationUnit-Employee-Empl
 sfdx force:apex:execute -f ./dx-utils/apex-scripts/updateLocationVisitorAddressId.apex
 
 #Post install file from Appiphony app
-#sfdx force:apex:execute -f ./dx-utils/apex-scripts/convertData.apex
+sfdx force:apex:execute -f ./dx-utils/apex-scripts/convertData.apex
 
 #Extra steps like resetting password for scartch org (if needed)
 sfdx force:apex:execute -f ./dx-utils/apex-scripts/demo-setup.apex

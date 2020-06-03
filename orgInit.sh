@@ -11,7 +11,7 @@ sfdx force:package:install -p 04t5w000005au3o -w 50
 #Install un-managed packages from Appiphony for their sample Building Management App
 # https://github.com/appiphony/building-management-app
 sfdx force:package:install -p 04t5w000004Lpu3 -w 50
-sfdx force:package:install -p 04t4S000000hR2y -w 50
+sfdx force:package:install -p 04t4S000000hXF3 -w 50
 
 #Perm sets have some fields from managed package so package needs to be installed first
 

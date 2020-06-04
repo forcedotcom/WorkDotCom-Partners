@@ -19,6 +19,10 @@ sfdx force:package:install -p 04t4S000000hXF3 -w 50
 #This will auto assign WOrkplace license to the user
 sfdx force:source:push
 
+#For deploy to non-scratch org
+#sfdx force:source:deploy -m ApexClass,CustomObject,LightningComponentBundle,CustomField,StaticResource,SecuritySettings,ApexTrigger,CustomApplication,ContentAsset,FlexiPage,CustomTab,CustomObject
+
+
 #Perm sets have some fields from managed package so package needs to be installed first
 sfdx force:user:permset:assign -n Workplace_Command_Center_Standard_PermSet_Admin_Full_Access_Cloned
 

@@ -2,7 +2,7 @@ sfdx force:org:create -f config/project-scratch-def.json  -a WDCScratchOrg -s -d
 
 
 #Command Center managed package
-sfdx force:package:install -p 04t5w000005dcR9 -w 50
+sfdx force:package:install -p 04t5w000005dfhvAAA -w 50
 
 #Command Center un-managed package
 sfdx force:package:install -p 04t5w000005au3o -w 50

@@ -4,7 +4,7 @@ sfdx force:org:create -f config/project-scratch-def.json  -a WDCScratchOrg -s -d
 #Command Center managed package
 #v2.1
 #Get new version from http://work.force.com/workplacecommandcenter
-sfdx force:package:install -p 04t5w000005dgS6AAI -w 50
+sfdx force:package:install -p 04t5w000005dgkTAAQ -w 50
 
 #Command Center un-managed package
 #Get new version from http://work.force.com/employeewellnesssurveysamples

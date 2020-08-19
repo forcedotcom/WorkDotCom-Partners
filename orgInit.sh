@@ -2,13 +2,14 @@ sfdx force:org:create -f config/project-scratch-def.json  -a WDCScratchOrg -s -d
 
 
 #Command Center managed package
-#v3
+#v2.1
 #Get new version from http://work.force.com/workplacecommandcenter
-sfdx force:package:install -p 04t5w000005b0l6 -w 50
+sfdx force:package:install -p 04t5w000005dgkTAAQ -w 50
 
 #Command Center un-managed package
 #Get new version from http://work.force.com/employeewellnesssurveysamples
-sfdx force:package:install -p 04t5w000005b0l1 -w 50
+#v3.0
+sfdx force:package:install -p 04t5w000005dgkTAAQ -w 50
 
 
 #Install un-managed packages from Appiphony for their sample Building Management App

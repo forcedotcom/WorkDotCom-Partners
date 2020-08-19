@@ -34,8 +34,8 @@ sfdx force:user:permset:assign -n Workplace_Command_Center_Standard_PermSet_Admi
 #Permission Sets
 #Workplace Admin
 sfdx force:user:permset:assign -n b2w_Admin
-#Workplace Global Operations
-sfdx force:user:permset:assign -n b2w_GlobalOperations
+#Workplace Global Operations Executive
+sfdx force:user:permset:assign -n b2w_OperationsExecutive
 #Workplace Operations
 sfdx force:user:permset:assign -n b2w_Operations
 

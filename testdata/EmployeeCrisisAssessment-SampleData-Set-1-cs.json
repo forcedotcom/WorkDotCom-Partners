@@ -12,7 +12,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Test Negative",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef2",
             "SourceAssessment": "1FFB90966CBA23357661530227F473FD14110D6172038C5EBF",
@@ -177,7 +177,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Test Positive",
+            "Assessment": "COVID-19 Symptoms or Exposed",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef17",
             "SourceAssessment": "D8A8808302847EE7BDE22F23D20590BFB67262D3AB80BDA540",
@@ -254,7 +254,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Immune or Recovered",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef24",
             "SourceAssessment": "C3741831ADC2F5D4CF3FAD195BF7C3CE50BAB5C089D6F0B0D9",
@@ -672,7 +672,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Immune or Recovered",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef62",
             "SourceAssessment": "BFD100CB89C4E41CA868B02C46A66CF3361820CB25442D9FDE",
@@ -760,7 +760,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Immune or Recovered",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef70",
             "SourceAssessment": "10D7C123DCC1298B2E25887EEDFAEDFDE95FD42D79CD10EBC3",
@@ -826,7 +826,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Test Negative",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef76",
             "SourceAssessment": "F3B505A34151E7D1C085B1E1B0DBCBBDF6FDC95CCE0DB7125E",
@@ -947,7 +947,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Test Negative",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef87",
             "SourceAssessment": "283E671B79AC04B91E5EDBC5A2852EC1913412ED1C20BE9470",
@@ -980,7 +980,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Immune or Recovered",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef90",
             "SourceAssessment": "10B89791EAD1C76A18BB9B6DC6CD7E4440F46F2DC102CB4233",
@@ -1189,7 +1189,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Test Positive",
+            "Assessment": "COVID-19 Symptoms or Exposed",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef109",
             "SourceAssessment": "183D798BB79FF199D293F4B137B73C39707223E18ECD337072",
@@ -1244,7 +1244,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Immune or Recovered",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef114",
             "SourceAssessment": "708A3BD420070588C8CCE212B568AAA896B6FB9468E563A601",
@@ -1332,7 +1332,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Test Positive",
+            "Assessment": "COVID-19 Symptoms or Exposed",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef122",
             "SourceAssessment": "174C3175CFAD99C4DC25B6C3B2115ED7F3E84E46D777C2A4F5",
@@ -1343,7 +1343,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Test Negative",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef123",
             "SourceAssessment": "B50E0355CBAB687FEDA7AFAB0637C81245F626DFBDBB7E5DD4",
@@ -1376,7 +1376,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Immune or Recovered",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef126",
             "SourceAssessment": "F6F58705EEA75BFD0701BC3D08F9FF7C37229D6A03C625EFC3",
@@ -1387,7 +1387,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Immune or Recovered",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef127",
             "SourceAssessment": "B162CEC4519F0A65101AC0E43FBBB47E1483A840E821FC6819",
@@ -1398,7 +1398,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Test Positive",
+            "Assessment": "COVID-19 Symptoms or Exposed",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef128",
             "SourceAssessment": "556482E5AF1F7FC775F2D0B0FDF0D148800F7D868579C57680",
@@ -1926,7 +1926,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Immune or Recovered",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef176",
             "SourceAssessment": "36F841BF00000A3B8CD817D0D2AFE312F44FC16382BF4C293A",
@@ -2190,7 +2190,7 @@
             }
         },
         {
-            "Assessment": "COVID-19 Immune or Recovered",
+            "Assessment": "COVID-19 No Symptoms",
             "AssessmentDate": "2020-05-18",
             "EmployeeId": "@employeeRef200",
             "SourceAssessment": "26B14F62372B66AD588F71E6C6966E97638A1F013836087DB6",

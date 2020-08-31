@@ -7,6 +7,7 @@
             "State": "CA",
             "PostalCode": "94105",
             "Country": "US",
+            "LocationType": "Building",
             "ParentId": "@buildingRef00",
             "attributes": {
                 "type": "Address",
@@ -20,6 +21,7 @@
             "State": "CA",
             "PostalCode": "94105",
             "Country": "US",
+            "LocationType": "Building",
             "ParentId": "@buildingRef01",
             "attributes": {
                 "type": "Address",
@@ -33,6 +35,7 @@
             "State": "CA",
             "PostalCode": "94105",
             "Country": "US",
+            "LocationType": "Building",
             "ParentId": "@buildingRef02",
             "attributes": {
                 "type": "Address",
@@ -46,6 +49,7 @@
             "State": "WA",
             "PostalCode": "98004",
             "Country": "US",
+            "LocationType": "Building",
             "ParentId": "@buildingRef10",
             "attributes": {
                 "type": "Address",
@@ -59,6 +63,7 @@
             "State": "WA",
             "PostalCode": "98103",
             "Country": "US",
+            "LocationType": "Building",
             "ParentId": "@buildingRef11",
             "attributes": {
                 "type": "Address",
@@ -72,6 +77,7 @@
             "State": "CO",
             "PostalCode": "80027",
             "Country": "US",
+            "LocationType": "Building",
             "ParentId": "@buildingRef20",
             "attributes": {
                 "type": "Address",
@@ -85,6 +91,7 @@
             "State": "CO",
             "PostalCode": "80112",
             "Country": "US",
+            "LocationType": "Building",
             "ParentId": "@buildingRef21",
             "attributes": {
                 "type": "Address",
@@ -98,6 +105,7 @@
             "State": "London",
             "PostalCode": "EC2N 4AY",
             "Country": "UK",
+            "LocationType": "Building",
             "ParentId": "@buildingRef30",
             "attributes": {
                 "type": "Address",
@@ -111,6 +119,7 @@
             "State": "Middlesex",
             "PostalCode": "TW18 3AG",
             "Country": "UK",
+            "LocationType": "Building",
             "ParentId": "@buildingRef40",
             "attributes": {
                 "type": "Address",
@@ -124,6 +133,7 @@
             "State": "ON",
             "PostalCode": "M5J 2R8",
             "Country": "Canada",
+            "LocationType": "Building",
             "ParentId": "@buildingRef50",
             "attributes": {
                 "type": "Address",

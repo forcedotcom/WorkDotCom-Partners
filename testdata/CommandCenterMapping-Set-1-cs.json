@@ -1,0 +1,64 @@
+{
+    "records": [
+        {
+            "Name": "WellnessStatusMap1",
+            "MappedValue__c": "Unavailable",
+            "MappingKey__c": "WSCurrentWellnessStatus",
+            "MappingType__c": "WellnessStatusMap",
+            "attributes": {
+                "type": "CommandCenterMapping__c",
+                "referenceId": "ccmapping00"
+            }
+        },
+        {
+            "Name": "WellnessStatusMap2",
+            "MappedValue__c": "Available To Work",
+            "MappingKey__c": "WSCurrentWellnessStatus",
+            "MappingType__c": "WellnessStatusMap",
+            "attributes": {
+                "type": "CommandCenterMapping__c",
+                "referenceId": "ccmapping01"
+            }
+        },
+        {
+            "Name": "WellnessStatusMap3",
+            "MappedValue__c": "Remote Work Only",
+            "MappingKey__c": "WSCurrentWellnessStatus",
+            "MappingType__c": "WellnessStatusMap",
+            "attributes": {
+                "type": "CommandCenterMapping__c",
+                "referenceId": "ccmapping02"
+            }
+        },
+        {
+            "Name": "WellnessStatusMap1",
+            "MappedValue__c": "COVID-19 Symptoms or Exposed",
+            "MappingKey__c": "WSAssessment",
+            "MappingType__c": "WellnessStatusMap",
+            "attributes": {
+                "type": "CommandCenterMapping__c",
+                "referenceId": "ccassessmap00"
+            }
+        },
+        {
+            "Name": "WellnessStatusMap2",
+            "MappedValue__c": "COVID-19 No Symptoms",
+            "MappingKey__c": "WSAssessment",
+            "MappingType__c": "WellnessStatusMap",
+            "attributes": {
+                "type": "CommandCenterMapping__c",
+                "referenceId": "ccassessmap01"
+            }
+        },
+        {
+            "Name": "WellnessStatusMap3",
+            "MappedValue__c": "Declined",
+            "MappingKey__c": "WSAssessment",
+            "MappingType__c": "WellnessStatusMap",
+            "attributes": {
+                "type": "CommandCenterMapping__c",
+                "referenceId": "ccassessmap02"
+            }
+        }       
+    ]
+}

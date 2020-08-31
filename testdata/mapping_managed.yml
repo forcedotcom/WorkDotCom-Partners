@@ -1,0 +1,118 @@
+Insert Crisis:
+  sf_object: Crisis
+  table: Crisis
+  fields:
+    Id: sf_id
+    Name: Name
+    CrisisType: CrisisType
+    StartDate: StartDate
+Insert Individual:
+  sf_object: Individual
+  table: Individual
+  fields:
+    Id: sf_id
+    FirstName: FirstName
+    LastName: LastName
+    CanStorePiiElsewhere: CanStorePiiElsewhere
+    HasOptedOutGeoTracking: HasOptedOutGeoTracking
+    HasOptedOutProcessing: HasOptedOutProcessing
+    HasOptedOutProfiling: HasOptedOutProfiling
+    HasOptedOutSolicit: HasOptedOutSolicit
+    HasOptedOutTracking: HasOptedOutTracking
+    IsHomeOwner: IsHomeOwner
+    SendIndividualData: SendIndividualData
+    ShouldForget: ShouldForget
+# Moving the Command Center Mapping Wellness Status Maps to cci Task 'deploy_command_center_settings'
+#Insert wkcc__CommandCenterMapping__c:
+#  sf_object: wkcc__CommandCenterMapping__c
+#  table: CommandCenterMapping__c
+#  fields:
+#    Id: sf_id
+#    Name: Name
+#    wkcc__MappedValueName__c: MappedValueName__c
+#    wkcc__MappedValue__c: MappedValue__c
+#    wkcc__MappingKey__c: MappingKey__c
+#    wkcc__MappingTypeId__c: MappingTypeId__c
+#    wkcc__MappingType__c: MappingType__c
+Insert wkcc__Location__c:
+  sf_object: Location
+  table: Location
+  fields:
+    Id: sf_id
+    Name: Name
+    IsInventoryLocation: IsInventoryLocation
+    IsMobile: IsMobile
+    wkcc__Level2LocationId__c: wkcc__Level2LocationId__c
+    wkcc__LocationPath__c: wkcc__LocationPath__c
+    LocationType: LocationType
+    wkcc__StatusLastUpdated__c: wkcc__StatusLastUpdated__c
+    wkcc__Status__c: wkcc__Status__c
+  lookups:
+    ParentLocationId:
+      table: Location
+      after: Insert Location
+    VisitorAddressId:
+      table: Address
+      after: Insert Address
+Insert Address:
+  sf_object: Address
+  table: Address
+  fields:
+    Id: sf_id
+    LocationType: LocationType
+  lookups:
+    ParentId:
+      table: Location
+Insert wkcc__LocationWellnessFact__c:
+  sf_object: wkcc__LocationWellnessFact__c
+  table: wkcc__LocationWellnessFact__c
+  fields:
+    Id: sf_id
+    wkcc__ExternalId__c: wkcc__ExternalId__c
+    wkcc__LocationEmployeeCount__c: wkcc__LocationEmployeeCount__c
+    wkcc__WellnessStatusEmployeeCount__c: wkcc__WellnessStatusEmployeeCount__c
+    wkcc__WellnessStatus__c: wkcc__WellnessStatus__c
+  lookups:
+    wkcc__Location__c:
+      table: Location
+Insert LocationWellnessStaging__c:
+  sf_object: wkcc__LocationWellnessStaging__c
+  table: wkcc__LocationWellnessStaging__c
+  fields:
+    Id: sf_id
+    wkcc__Errors__c: wkcc__Errors__c
+    wkcc__ExternalId__c: wkcc__ExternalId__c
+    wkcc__JobStatus__c: wkcc__JobStatus__c
+  lookups:
+    wkcc__Location__c:
+      table: Location
+Insert Employee:
+  sf_object: Employee
+  table: Employee
+  fields:
+    Id: sf_id
+    FirstName: FirstName
+    LastName: LastName
+    EmployeeNumber: EmployeeNumber
+    EmployeeStatus: EmployeeStatus
+    StatusAsOf: StatusAsOf
+    WorkerType: WorkerType
+  lookups:
+    IndividualId:
+      table: Individual
+    LocationId:
+      table: Location
+    ManagerId:
+      table: Employee
+      after: Insert Employee
+Insert EmployeeCrisisAssessment:
+  sf_object: EmployeeCrisisAssessment
+  table: EmployeeCrisisAssessment
+  fields:
+    Id: sf_id
+    AssessmentDate: AssessmentDate
+  lookups:
+    CrisisId:
+      table: Crisis
+    EmployeeId:
+      table: Employee

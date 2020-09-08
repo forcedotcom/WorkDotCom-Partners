@@ -83,3 +83,9 @@ Test data is for following objects
 - Employee (Core)
 - EmployeeCrisisAssessment (Core)
 - Internal Organization Unit (Core)
+
+
+Note:
+- We have temporarily removed Appiphony sample app while we are working on fixing some issues
+- We have removed extra permissions sets as those are not applicable with latest version of app
+-- Please check documentation on the process which generates permission sets after running some Apex and need to be assigned to users

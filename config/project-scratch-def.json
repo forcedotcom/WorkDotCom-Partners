@@ -1,17 +1,20 @@
 {
-  "orgName": "WORKDOTCOM",
-  "edition": "Enterprise",
-  "language": "en_US",
-  "settings": {
-      "lightningExperienceSettings": {
-          "enableS1DesktopEnabled": true
-      },
-      "surveySettings": {
-          "enableSurvey": true
-      },
-      "communitiesSettings": {
-          "enableNetworksEnabled": true
-      }
-  },
-  "features": ["PlatformEncryption", "Communities", "WorkplaceCommandCenterUser", "ForceComPlatform"]
-}
+    "orgName": "WORKDOTCOM",
+    "edition": "Enterprise",
+    "language": "en_US",
+    "settings": {
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "surveySettings": {
+            "enableSurvey": true
+        },
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        },
+        "fieldServiceSettings": {
+          "fieldServiceOrgPref": true
+        }
+    },
+    "features": ["PlatformEncryption", "Communities", "WorkplaceCommandCenterUser", "ForceComPlatform", "ServiceCloud", "FieldService"]
+  }

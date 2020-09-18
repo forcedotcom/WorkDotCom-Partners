@@ -72,4 +72,15 @@ sfdx force:user:permset:assign -n Workplace_Admin_Access_Group
 sfdx force:user:permset:assign -n Workplace_Command_Center_Access
 sfdx force:user:permset:assign -n Workplace_Admin_Objects
 
+#Shift Management Setup
+#Install FSL package, get the latest version from https://fsl.secure.force.com/install
+sfdx force:package:install -p 04t3y000001yoTW -w 50
+#Install the Shift Management package, get the latest version from https://fsl.secure.force.com/work
+sfdx force:package:install -p 04t5w000005Hv9C -w 50
+
+#Assign Shift Management Workplace Manager Tabs permission set
+sfdx force:user:permset:assign -n WKFSL_Tabs_Workplace_Manager
+#Assign Shift Management Shift Planner Tabs permission set
+sfdx force:user:permset:assign -n WKFSL_Tabs_Planner
+
 sfdx force:org:open 

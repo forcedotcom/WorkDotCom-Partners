@@ -11,7 +11,10 @@
       },
       "communitiesSettings": {
           "enableNetworksEnabled": true
+      },
+      "fieldServiceSettings": {
+        "fieldServiceOrgPref": true
       }
   },
-  "features": ["PlatformEncryption", "Communities", "WorkplaceCommandCenterUser", "ForceComPlatform"]
+  "features": ["PlatformEncryption", "Communities", "WorkplaceCommandCenterUser", "ForceComPlatform", "ServiceCloud", "FieldService"]
 }

@@ -14,24 +14,12 @@
         <componentInstances>
             <componentName>wkcc:b2w_WellnessStatusByLocation</componentName>
         </componentInstances>
-        <componentInstances>
-            <componentName>locationCleaning</componentName>
-        </componentInstances>
         <name>left</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
             <componentName>wkcc:b2w_WellnessStatus</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentName>barChart</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentName>resetCleaningData</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentName>pieChart</componentName>
         </componentInstances>
         <name>middle</name>
         <type>Region</type>

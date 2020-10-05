@@ -42,12 +42,6 @@
         "files": ["Crisis-SampleData-Set-1-cs.json"]
     },
     {
-        "sobject": "CommandCenterMapping__c",
-        "saveRefs": true,
-        "resolveRefs": true,
-        "files": ["CommandCenterMapping-Set-1-cs.json"]
-    },
-    {
         "sobject": "EmployeeCrisisAssessment",
         "saveRefs": true,
         "resolveRefs": true,

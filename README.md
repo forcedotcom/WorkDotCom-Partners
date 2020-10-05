@@ -10,6 +10,8 @@ This repo can quickly get you started with Work.com and Command Center managed p
 - Command Center Un-Managed Package (Emmployee Wellness Survey Templates)
 - Quick Start Permission Sets (Make sure to review those as needed)
 
+- Shift Management has also been added to the repo however it's disabled by default
+- You can clone the repo and enable Shift Management with 4 commands towards the end of orgInit.sh
 
 ## How can I use this repo?
 

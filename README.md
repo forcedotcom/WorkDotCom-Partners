@@ -1,9 +1,11 @@
-# Work.com and Command Center
+
+## Description
+
 Where can I get more information about work.com?
 
 For Partners: Go to Work.com for AppExchange Partners Partner Community Chatter Group  : https://partners.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F93A000000TygB
 
-## What is this repo?
+## Audience
 This repo can quickly get you started with Work.com and Command Center managed package(s). Following is what will be included in this repo:
 - Work.com PSL (Check config file: https://github.com/forcedotcom/WorkDotCom-Partners/blob/master/config/project-scratch-def.json)
 - Command Center Managed Package
@@ -13,6 +15,12 @@ This repo can quickly get you started with Work.com and Command Center managed p
 - Shift Management has also been added to the repo however it's disabled by default
 - You can clone the repo and enable Shift Management with 4 commands towards the end of orgInit.sh
 
+## Launcher
+
+[![Deploy](https://raw.githubusercontent.com/sfdcteteam/ADKTemplate/main/demoAssets/DeployToSFDX.svg)](https://hosted-scratch.herokuapp.com/launch?template=https://github.com/forcedotcom/WorkDotCom-Partners&email=required) Click To Launch the Demo
+
+## Demo Script
+
 ## How can I use this repo?
 
 1. You can do this locally
@@ -20,7 +28,7 @@ This repo can quickly get you started with Work.com and Command Center managed p
    - git clone https://github.com/forcedotcom/WorkDotCom-Partners.git
      - Run orgInit.sh file: Check https://github.com/forcedotcom/WorkDotCom-Partners/blob/master/orgInit.sh for commands
      - ./orgInit.sh
-2. You can use this via Heroku Deployer because this repo is ADK ready: https://salesforce.quip.com/S6ZvAvaxI1CV
+2. You can use this via Heroku Deployer because this repo is ADK ready: https://github.com/sfdcteteam/ADKTemplate
 
 ## Are there any steps after org is created?
 These scripts do NOT configure Work.com and Command Center in its entirety. You need to go through the documentation and setup your org for Work.com. The automation script (orgInit.sh) only does steps which can be done automatically.
@@ -91,3 +99,13 @@ Note:
 - We have temporarily removed Appiphony sample app while we are working on fixing some issues
 - We have removed extra permissions sets as those are not applicable with latest version of app
 -- Please check documentation on the process which generates permission sets after running some Apex and need to be assigned to users
+
+## Demo Video
+Watch a [video](https://www.youtube.com/watch?v=So4fSKKpgCQ) of this demo in action
+
+
+## Support
+This demo is supported by:
+Jaswinder Rattanpal
+[Log Issues](https://github.com/forcedotcom/WorkDotCom-Partners/issues)
+

@@ -16,5 +16,5 @@
         "fieldServiceOrgPref": true
       }
   },
-  "features": ["PlatformEncryption", "Communities", "WorkplaceCommandCenterUser", "ForceComPlatform", "ServiceCloud", "FieldService"]
+  "features": ["PlatformEncryption", "Communities", "WorkplaceCommandCenterUser", "ForceComPlatform", "ServiceCloud", "FieldService:5"]
 }

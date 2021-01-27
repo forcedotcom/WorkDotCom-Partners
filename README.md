@@ -1,4 +1,4 @@
-#USE https://install.work.com/products
+# USE https://install.work.com/products
 
 Work.com team has an official solution that can be used to configure scratch orgs as well as existing orgs. This will be maintained going forward by product team and will have all latest setup.
 

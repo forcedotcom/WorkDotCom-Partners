@@ -1,3 +1,8 @@
+#USE https://install.work.com/products
+
+Work.com team has an official solution that can be used to configure scratch orgs as well as existing orgs. This will be maintained going forward by product team and will have all latest setup.
+
+One point to note is that solution is UI based. If you want find a CI solution then you can start with this repo and add new features as those become available.
 
 ## Description
 
